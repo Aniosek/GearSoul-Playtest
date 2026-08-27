@@ -1,122 +1,86 @@
-# GearSoul — Pre-Alpha Playtest
+# GearSoul — Pre-Alpha Multiplayer Playtest
 
-**GearSoul** to rozwijana w Unreal Engine gra o przetrwaniu, pracy, nauce zawodów i budowaniu własnej historii — bez narzuconej roli bohatera nastawionego wyłącznie na walkę.
+**GearSoul** to rozwijana w Unreal Engine gra o przetrwaniu, pracy, nauce zawodów i budowaniu własnej historii. Nie narzuca roli wojownika — postać może poświęcić się rzemiosłu, wydobyciu, handlowi, logistyce albo życiu społeczności.
 
-> To wczesna wersja testowa. Jej zadaniem jest sprawdzenie podstawowych systemów, wygody sterowania i kierunku dalszego rozwoju.
+> To wczesny build techniczny. Testujemy mechaniki, multiplayer i stabilność, a nie końcową grafikę ani balans.
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.1.0 Pre-Alpha Playtest (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.1.0-prealpha-playtest/GearSoul_v0.1.0_PreAlpha_Playtest.zip)
+### [Pobierz GearSoul v0.2.0 Pre-Alpha Multiplayer Playtest (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.2.0/GearSoul_v0.2.0_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **592 MB**.
+- Rozmiar ZIP: około **597 MB**
+- Platforma: Windows 64-bit
+- Silnik: Unreal Engine 5.8
+- SHA-256: `B484DFDF4057820FCEC1C9FE4F664A8C4F2C34B64CC1626108305A8D160AD89E`
 
-1. Pobierz archiwum ZIP.
-2. Rozpakuj cały folder w wybrane miejsce.
-3. Uruchom plik `GearlSoul1.exe`.
+Pełna paczka pozostaje w [GitHub Releases](https://github.com/Aniosek/GearSoul-Playtest/releases), ponieważ właśnie tam GitHub pokazuje liczbę pobrań pliku. Gałąź `main` zawiera instrukcje, checklistę i sumę kontrolną — bez kodu źródłowego gry.
 
-Nie uruchamiaj gry bezpośrednio z wnętrza archiwum ZIP.
+## Jak uruchomić
 
-## Cel obecnego playtestu
+1. Pobierz ZIP i rozpakuj **cały** folder.
+2. Nie uruchamiaj gry bezpośrednio z archiwum.
+3. Wybierz launcher:
+   - `START_GearSoul_Solo.bat` — test solo,
+   - `START_GearSoul_Host.bat` — host multiplayer,
+   - `START_GearSoul_Join.bat` — dołączenie do hosta.
 
-W wersji **v0.1.0 Pre-Alpha** najważniejsze jest sprawdzenie, czy podstawowa pętla rozgrywki działa czytelnie i stabilnie: poruszanie się po świecie → interakcja z obiektami → podnoszenie i przenoszenie przedmiotów → korzystanie z ekwipunku i kontenerów → podstawowe systemy survivalowe.
+W sieci lokalnej klient wpisuje IPv4 hosta. Przy grze przez Internet host musi dopuścić aplikację w Zaporze Windows i przekierować **UDP 7777** na routerze. v0.2.0 używa listen-servera, więc host również jest graczem.
 
-Nie jest to jeszcze test finalnej grafiki, balansu ani ilości zawartości. Część assetów, interfejsu i elementów świata nadal będzie wymieniana lub rozwijana.
+## Co nowego w v0.2.0
 
-## Multiplayer — ważna informacja
+- publiczny test multiplayer z hostowaniem i dołączaniem po IP,
+- mapa obejmująca systemy etapów 0–41,
+- 41 fizycznych przedmiotów dostępnych do podnoszenia,
+- lekki zestaw startowy: FireDrill, StonePickaxe i MasonryHammer,
+- fizyczny plecak, masa, objętość i limity slotów,
+- claimy, barter, wozy, drogi, karawany i regiony,
+- pełne łańcuchy drewna, cegieł, metalurgii, rolnictwa i chleba,
+- jakość, zużycie i naprawa narzędzi,
+- krwawienie, infekcja i leczenie wykonywane przez drugiego gracza,
+- kataklizmy środowiskowe i narzędzia testowe,
+- stabilność sprawdzona lokalnie dla 2, 5, 10 i 15 klientów.
 
-System multiplayer oraz wymiana barterowa między graczami **działają już w wewnętrznych testach developerskich**, ale nie są jeszcze przygotowane do wygodnego użycia w obecnym publicznym buildzie.
+## Krótka checklista testera
 
-Publiczny playtest v0.1.0 skupia się obecnie głównie na testach solo. Multiplayer, prosty sposób hostowania/dołączania do gry oraz barter dla testerów zostaną udostępnione w jednej z kolejnych wersji testowych.
+- [ ] Host i klienci widzą te same postacie, przedmioty i zmiany świata.
+- [ ] Podnoszenie i odkładanie nie blokuje postaci ani interakcji `E`.
+- [ ] Przedmioty nie wystrzeliwują, nie wirują i nie wpadają pod mapę.
+- [ ] Masa, objętość, sloty i plecak reagują na realną zawartość.
+- [ ] Drzewo daje kłody, a kłody można przerobić na opał.
+- [ ] Wydobycie kamienia, żelaza i węgla nie blokuje gracza po wyczerpaniu złoża.
+- [ ] Budowanie i naprawa wymagają właściwych materiałów, narzędzi i uprawnień.
+- [ ] Skrzynie, barter, wóz i karawana działają pomiędzy graczami.
+- [ ] Drugi gracz może opatrzyć ranę i leczyć infekcję fizycznymi środkami.
+- [ ] Dłuższa sesja nie powoduje utraty sterowania, crasha ani rozjazdu stanu.
 
-## Co można obecnie testować
+Pełna lista znajduje się w [TESTING_CHECKLIST_PL.md](TESTING_CHECKLIST_PL.md).
 
-- poruszanie postacią i kamerą,
-- interakcje kontekstowe ze świata gry,
-- podnoszenie i odkładanie przedmiotów,
-- ekwipunek uwzględniający masę, objętość i liczbę slotów,
-- pojemniki, wóz oraz przenoszenie przedmiotów,
-- podstawowe parametry przetrwania,
-- testowe narzędzia, materiały i obiekty świata.
+## Komendy mapy testowej
 
-## Co zrobić jako tester
-
-Jeśli chcesz pomóc, spróbuj przejść poniższe punkty i zapisz wszystko, co zachowuje się dziwnie lub nieczytelnie:
-
-- [ ] Pobierz kilka różnych przedmiotów i sprawdź, czy poprawnie trafiają do ekwipunku.
-- [ ] Odłóż przedmiot z powrotem do świata i sprawdź jego fizykę oraz możliwość ponownego podniesienia.
-- [ ] Przenieś przedmioty pomiędzy ekwipunkiem a dostępnymi kontenerami.
-- [ ] Sprawdź zachowanie ekwipunku przy większej liczbie przedmiotów oraz ograniczeniach masy/objętości.
-- [ ] Użyj dostępnych obiektów interaktywnych i zwróć uwagę, czy komunikaty oraz klawisze są zrozumiałe.
-- [ ] Pograj dłużej bez restartowania gry i zwróć uwagę na zacinanie interakcji, problemy z UI lub inne niestabilne zachowanie.
-- [ ] Sprawdź, czy przedmioty nie wpadają pod mapę, nie zaczynają nadmiernie podskakiwać ani nie zachowują się niestabilnie.
-
-Nie musisz zaliczać całej listy. Nawet jeden dobrze opisany problem jest pomocny.
-
-## Jak zgłosić błąd
-
-Przy zgłoszeniu podaj, jeśli możesz:
-
-1. **Co robiłeś przed wystąpieniem problemu.**
-2. **Co się stało.**
-3. **Czego oczekiwałeś.**
-4. Czy problem da się powtórzyć.
-5. Screenshot lub krótki film, jeśli problem jest widoczny na ekranie.
-
-Przykład:
+Otwórz konsolę klawiszem `~`, wpisz `GSTestHelp` i zatwierdź Enterem. Przykłady:
 
 ```text
-Problem: przedmiot zniknął po przeniesieniu do skrzyni.
-Kroki: podniosłem Stone -> otworzyłem skrzynię -> przeniosłem Stone do kontenera.
-Oczekiwane: Stone powinien pojawić się w skrzyni.
-Wynik: zniknął z inventory, ale nie pojawił się w skrzyni.
-Powtarzalność: 2/3 prób.
+GSTestStatus
+GSTestInventory
+GSTestGo Resources
+GSTestGo Trade
+GSTestCataclysm Heatwave 10 0.75
+GSTestCataclysm Storm 10 0.75
+GSTestCataclysm Clear
 ```
 
-## Logi i crashe
+## Zgłaszanie błędu
 
-Jeśli gra się zawiesi, zamknie albo wystąpi trudny do odtworzenia błąd, do zgłoszenia warto dołączyć najnowszy plik logu.
-
-Typowa lokalizacja logów w Windows:
+Napisz, czy grałeś solo, jako host czy klient, ilu było graczy, jakie kroki wykonałeś, czego oczekiwałeś i co stało się naprawdę. Dołącz screenshot/film oraz najnowszy log, jeśli możesz.
 
 ```text
 %LOCALAPPDATA%\GearlSoul1\Saved\Logs
 ```
 
-Raporty crashy, jeśli zostały utworzone:
+Pamiętaj, aby nie publikować swojego adresu IP ani innych prywatnych danych.
 
-```text
-%LOCALAPPDATA%\GearlSoul1\Saved\Crashes
-```
+## Prawa i licencje
 
-Najłatwiej wkleić powyższą ścieżkę bezpośrednio do paska adresu Eksploratora Windows.
+Kod źródłowy nie jest publikowany. Zawartość gry jest ugotowana i spakowana przez Unreal Pak/IoStore. Modele środowiska wykorzystane w prototypie pochodzą z Poly Haven na licencji CC0; zawartość Unreal jest częścią spakowanego produktu zgodnie z właściwą licencją Epic.
 
-## Status projektu
-
-- **Wersja:** v0.1.0 Pre-Alpha Playtest
-- **Platforma:** Windows 64-bit
-- **Silnik:** Unreal Engine 5
-- **Stan:** aktywny rozwój
-- **Charakter buildu:** publiczny playtest — nie finalne wydanie
-- **Multiplayer/barter:** działają wewnętrznie, publiczne testy zostaną udostępnione później
-
-Pełna paczka jest publikowana w sekcji [Releases](https://github.com/Aniosek/GearSoul-Playtest/releases). To repozytorium służy do udostępniania publicznych wersji testowych; kod źródłowy gry nie jest tutaj publikowany.
-
-## Integralność pobrania
-
-SHA-256:
-
-```text
-CA8B8FCB76FCFAED9C35458ED94AD8C4B7C9D7FF74929AD2A87045B38A68DDB6
-```
-
-Plik z sumą kontrolną znajduje się również przy wydaniu.
-
-## Informacja dla testerów
-
-GearSoul znajduje się na wczesnym etapie produkcji. Grafika, interfejs, balans i zawartość mogą ulec zmianie. Najbardziej wartościowe są obecnie zgłoszenia dotyczące stabilności, interakcji, ekwipunku, fizyki przedmiotów oraz czytelności podstawowych systemów.
-
-Dziękuję każdej osobie, która poświęci czas na sprawdzenie buildu i opisanie znalezionego problemu.
-
----
-
-Copyright © 2026 Aniosek. Wszelkie prawa zastrzeżone. Publiczna paczka jest przeznaczona do testowania; nie udostępnia kodu źródłowego ani praw do zasobów projektu.
+Copyright © 2026 Aniosek. Paczka służy do testowania i nie udziela praw do kodu ani zasobów projektu. Oprogramowanie oraz licencjonowana technologia i zawartość są udostępniane „tak jak są”, bez dodatkowych zapewnień i gwarancji.
