@@ -1,4 +1,4 @@
-# GearSoul v0.2.0 — pełna checklista testera
+# GearSoul v0.2.2 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -31,6 +31,12 @@
 - [ ] Żelazo przechodzi przez rudę, przygotowanie, bloomery i kowalstwo.
 - [ ] Pszenica przechodzi przez suszenie, młyn, ciasto i chleb.
 - [ ] Kamień, żelazo i węgiel można wydobywać bez zablokowania postaci.
+- [ ] Ścinanie, kopanie i wydobycie zużywają energię oraz durability i nie przyjmują spamu szybszego niż cooldown.
+- [ ] Drugi gracz widzi wyposażone narzędzie oraz jego ruch podczas pracy.
+- [ ] Plac palisady wymaga dokładnie 5 kłód i 5 cykli młotka.
+- [ ] Plac fundamentu wymaga dokładnie 4 kamieni i 6 cykli młotka.
+- [ ] Dwóch uprawnionych graczy może wspólnie dostarczać materiały i pracę przy jednym placu.
+- [ ] Naprawa uszkodzonej konstrukcji zużywa pasujący materiał, energię i durability młotka.
 - [ ] Alchemia tworzy fizyczny eliksir maskujący, a efekt jest czasowy.
 
 ## Gracze i gospodarka
