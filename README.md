@@ -6,7 +6,7 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.2.2 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.2.2/GearSoul_v0.2.2_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.2.3 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.2.3/GearSoul_v0.2.3_PreAlpha_Multiplayer_Windows.zip)
 
 Rozmiar archiwum: około **603 MiB**.
 
@@ -16,14 +16,13 @@ Rozmiar archiwum: około **603 MiB**.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Co zmieniło się w v0.2.2
+## Co zmieniło się w v0.2.3
 
-- ścinanie, kopanie i wydobycie sprawdzają narzędzie, energię, durability oraz cooldown po stronie serwera,
-- ruch używanego narzędzia jest replikowany i widoczny dla pozostałych graczy,
-- palisada wymaga dostarczenia 5 osobnych kłód i wykonania 5 cykli młotkiem,
-- fundament wymaga dostarczenia 4 kamieni i wykonania 6 cykli młotkiem,
-- kilku uprawnionych graczy może wspólnie pracować przy jednym placu budowy,
-- uszkodzone konstrukcje można naprawiać fizycznym materiałem i pracą młotka.
+- kolejne rudy, kamienie, glina i produkty stanowisk pojawiają się w wolnych miejscach zamiast jeden na drugim,
+- bezpieczne rozmieszczanie fizycznych przedmiotów jest wykonywane przez serwer bez gwałtownych impulsów,
+- przedmioty wczytane z zapisu zachowują swoją zapisaną pozycję,
+- plac budowy wyjaśnia, że materiały można dostarczać pojedynczo i zachowuje postęp,
+- palisada nadal wymaga łącznie 5 kłód i 5 cykli młotkiem, a fundament 4 kamieni i 6 cykli młotkiem.
 
 ## Najważniejsze testy
 
@@ -35,20 +34,21 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 - synchronizacja dnia, nocy, przetrwania oraz zdarzeń środowiskowych,
 - wygląd i położenie siekiery, kilofa i młotka w prawej dłoni innych graczy.
 - współdzielony postęp dostarczania materiałów i pracy na placu budowy.
+- stabilne rozmieszczanie nowych surowców bez nakładania i wystrzeliwania obiektów.
 
-Pełna lista znajduje się w pliku `CZYTAJ_TO_GearSoul_v0.2.2.md` wewnątrz paczki.
+Pełna lista znajduje się w pliku `CZYTAJ_TO_GearSoul_v0.2.3.md` wewnątrz paczki.
 
 ## Integralność pobrania
 
 SHA-256:
 
 ```text
-71048A59A670122CD04BD40165999D93E8F969317952BF2FB5AF2AABE5F6CE47
+F056B266D3A00050B9732735AC26C29E3B91908902F07265B82D69C65D4AF425
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.2.2 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.2.3 Pre-Alpha Multiplayer Playtest
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój

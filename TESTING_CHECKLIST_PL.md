@@ -1,4 +1,4 @@
-# GearSoul v0.2.2 — pełna checklista testera
+# GearSoul v0.2.3 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -22,6 +22,7 @@
 - [ ] Masa, objętość i sloty są prawidłowo przeliczane.
 - [ ] Plecak zwiększa pojemność dopiero po założeniu i nadal ma własną masę.
 - [ ] Przedmioty leżą stabilnie i nie wystrzeliwują po zetknięciu z graczem.
+- [ ] Kolejne wydobyte surowce zajmują osobne wolne miejsca zamiast tworzyć pionowy stos.
 
 ## Świat i produkcja
 
@@ -35,6 +36,7 @@
 - [ ] Drugi gracz widzi wyposażone narzędzie oraz jego ruch podczas pracy.
 - [ ] Plac palisady wymaga dokładnie 5 kłód i 5 cykli młotka.
 - [ ] Plac fundamentu wymaga dokładnie 4 kamieni i 6 cykli młotka.
+- [ ] Materiały można donosić na plac pojedynczo, a wcześniejsze dostawy nie znikają po odejściu gracza.
 - [ ] Dwóch uprawnionych graczy może wspólnie dostarczać materiały i pracę przy jednym placu.
 - [ ] Naprawa uszkodzonej konstrukcji zużywa pasujący materiał, energię i durability młotka.
 - [ ] Alchemia tworzy fizyczny eliksir maskujący, a efekt jest czasowy.
