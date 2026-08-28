@@ -1,4 +1,4 @@
-# GearSoul v0.2.3 — pełna checklista testera
+# GearSoul v0.3.0 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -18,7 +18,7 @@
 ## Inventory i materia
 
 - [ ] Start zawiera tylko FireDrill, StonePickaxe i MasonryHammer.
-- [ ] 41 pickupów można fizycznie zebrać.
+- [ ] 42 pickupy można fizycznie zebrać.
 - [ ] Masa, objętość i sloty są prawidłowo przeliczane.
 - [ ] Plecak zwiększa pojemność dopiero po założeniu i nadal ma własną masę.
 - [ ] Przedmioty leżą stabilnie i nie wystrzeliwują po zetknięciu z graczem.
@@ -40,6 +40,10 @@
 - [ ] Dwóch uprawnionych graczy może wspólnie dostarczać materiały i pracę przy jednym placu.
 - [ ] Naprawa uszkodzonej konstrukcji zużywa pasujący materiał, energię i durability młotka.
 - [ ] Alchemia tworzy fizyczny eliksir maskujący, a efekt jest czasowy.
+- [ ] Surowa woda ma jakość, oczyszczanie zużywa opał, a beczka zachowuje fizyczne porcje.
+- [ ] Trzy jelenie poruszają się jako stado bez humanoidalnych NPC.
+- [ ] Karmienie i pojenie zwierzęcia zużywa dokładnie jedną realną porcję.
+- [ ] Wół daje się przypiąć do wozu i ciągnie go wyłącznie podczas prowadzenia przez gracza.
 
 ## Gracze i gospodarka
 
@@ -49,6 +53,8 @@
 - [ ] Wóz ma fizyczny ładunek, części, masę i wpływ drogi.
 - [ ] Karawana wymaga gracza, wozu i prawdziwego ładunku.
 - [ ] Regiony różnią się dostępem do zasobów.
+- [ ] Plac osady przyjmuje osobno 1 zestaw sztandaru, 4 kłody i 4 kamienie.
+- [ ] Woda, magazyn, barter i naprawy stają się usługą osady dopiero po rejestracji istniejącej infrastruktury.
 
 ## Przetrwanie i medycyna
 

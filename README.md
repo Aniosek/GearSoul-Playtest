@@ -6,9 +6,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.2.3 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.2.3/GearSoul_v0.2.3_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.3.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.3.0/GearSoul_v0.3.0_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **603 MiB**.
+Rozmiar archiwum: około **596 MiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -16,13 +16,14 @@ Rozmiar archiwum: około **603 MiB**.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Co zmieniło się w v0.2.3
+## Co zmieniło się w v0.3.0
 
-- kolejne rudy, kamienie, glina i produkty stanowisk pojawiają się w wolnych miejscach zamiast jeden na drugim,
-- bezpieczne rozmieszczanie fizycznych przedmiotów jest wykonywane przez serwer bez gwałtownych impulsów,
-- przedmioty wczytane z zapisu zachowują swoją zapisaną pozycję,
-- plac budowy wyjaśnia, że materiały można dostarczać pojedynczo i zachowuje postęp,
-- palisada nadal wymaga łącznie 5 kłód i 5 cykli młotkiem, a fundament 4 kamieni i 6 cykli młotkiem.
+- woda ma jakość, oczyszczanie opałem i fizyczną beczkę,
+- mapa zawiera stado jeleni oraz woła z głodem, pragnieniem, zdrowiem i wytrzymałością,
+- wół ciągnie wóz tylko podczas prowadzenia przez prawdziwego gracza,
+- fauna może dawać ograniczone, fizyczne porcje surowego mięsa,
+- osada wymaga 1 zestawu sztandaru, 4 kłód i 4 kamieni dostarczanych osobno,
+- usługi osady istnieją tylko dzięki realnej wodzie, magazynowi, barterowi i stanowisku naprawczemu graczy.
 
 ## Najważniejsze testy
 
@@ -35,20 +36,23 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 - wygląd i położenie siekiery, kilofa i młotka w prawej dłoni innych graczy.
 - współdzielony postęp dostarczania materiałów i pracy na placu budowy.
 - stabilne rozmieszczanie nowych surowców bez nakładania i wystrzeliwania obiektów.
+- jakość, oczyszczanie i magazynowanie fizycznej wody.
+- ruch stada, karmienie, pojenie i prowadzenie wołu z wozem.
+- wspólne zakładanie osady oraz rejestrowanie istniejącej infrastruktury.
 
-Pełna lista znajduje się w pliku `CZYTAJ_TO_GearSoul_v0.2.3.md` wewnątrz paczki.
+Pełna lista znajduje się w pliku `CZYTAJ_TO_GearSoul_v0.3.0.md` wewnątrz paczki.
 
 ## Integralność pobrania
 
 SHA-256:
 
 ```text
-F056B266D3A00050B9732735AC26C29E3B91908902F07265B82D69C65D4AF425
+D610E7AABD0DEC4ABF73C73AF2CCB6DEA558D1B2B62E232DAD82766ACEC68E6B
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.2.3 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.3.0 Pre-Alpha Multiplayer Playtest
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
