@@ -1,0 +1,72 @@
+name: Zgłoszenie błędu GearSoul
+description: Zgłoś powtarzalny problem z publiczną wersją testową.
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za testowanie GearSoul. Nie wpisuj publicznego adresu IP, danych konta ani innych prywatnych informacji.
+  - type: input
+    id: version
+    attributes:
+      label: Wersja gry
+      description: Wersja widoczna w pliku VERSION.txt.
+      placeholder: "np. v0.4.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Tryb testu
+      options:
+        - Solo
+        - Host
+        - Klient
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: Liczba graczy
+      placeholder: "np. 3"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Kroki prowadzące do błędu
+      description: Opisz czynności w kolejności, od uruchomienia gry do wystąpienia problemu.
+      placeholder: |
+        1. Uruchomiłem...
+        2. Podszedłem do...
+        3. Nacisnąłem...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Oczekiwany rezultat
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Faktyczny rezultat
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screeny, film i paczka diagnostyczna
+      description: Uruchom CREATE_BUG_REPORT_PACKAGE.bat, przejrzyj utworzony ZIP i przeciągnij go tutaj razem ze screenami. Możesz też wysłać materiały na gearsoul00@gmail.com.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Kontrola prywatności
+      options:
+        - label: Sprawdziłem załączniki i usunąłem dane, których nie chcę publikować.
+          required: true
+        - label: Sprawdziłem, czy problem występuje w najnowszym wydaniu.
+          required: true

@@ -4,11 +4,13 @@
 
 > To wczesna wersja techniczna. Grafika, interfejs, balans i zawartość nadal się zmieniają.
 
+**Główna idea:** świat działa dlatego, że tworzą go gracze. Zobacz [wizję GearSoul](GEARSOUL_VISION.md) oraz [publiczną roadmapę](ROADMAP.md).
+
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.4.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.4.0/GearSoul_v0.4.0_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.4.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.4.1/GearSoul_v0.4.1_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **613 MiB**.
+Rozmiar archiwum: około **606 MiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -16,7 +18,11 @@ Rozmiar archiwum: około **613 MiB**.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## GearSoul v0.4.0 na screenach
+## GearSoul v0.4.1 na screenach
+
+![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
+
+Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Mapa testowa, transport i rzeka](screenshots/v0.4.0/01_mapa_i_transport.png)
 
@@ -24,9 +30,17 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.4.0
+## Co zmieniło się w v0.4.1
 
-- mapa testowa ma teraz naturalny teren, rzekę, las i lekkie stylizowane drzewa,
+- usunięto zawieszony i przenikalny pierścień wzgórz,
+- zmniejszono mapę testową do zwartego obszaru około 90×90 m i dodano pewną granicę kolizyjną,
+- poprawiono osadzenie drzew przy powierzchni gruntu,
+- niedostępna interakcja z drzewem podaje teraz konkretny powód,
+- dodano generator paczki diagnostycznej oraz formularz zgłoszenia błędu na GitHubie.
+
+Systemy z v0.4.0 pozostają dostępne:
+
+- mapa testowa ma naturalny teren, rzekę, las i lekkie stylizowane drzewa,
 - ekwipunek otrzymał czytelny układ i prawidłowe skalowanie w 1600×900,
 - las pamięta wycinkę, stan gleby, erozję i fizyczne sadzonki,
 - most wymaga ośmiu osobnych kłód oraz pracy młotkiem i reaguje na przeciążony wóz,
@@ -53,21 +67,30 @@ Pełna lista znajduje się w `README_PL.md` wewnątrz paczki oraz w [checkliści
 
 ## Zgłaszanie błędów
 
-Błędy, uwagi i materiały z testów wysyłaj na **[gearsoul00@gmail.com](mailto:gearsoul00@gmail.com)**.
+Błędy możesz zgłaszać przez **[formularz GitHub Issues](https://github.com/Aniosek/GearSoul-Playtest/issues/new?template=bug_report.yml)** albo wysłać na **[gearsoul00@gmail.com](mailto:gearsoul00@gmail.com)**.
 
-W wiadomości podaj tryb (solo/host/klient), liczbę graczy, kroki prowadzące do błędu, oczekiwany rezultat oraz dołącz screen, film lub log, jeśli jest dostępny. Nie przesyłaj publicznie swojego adresu IP ani danych konta.
+W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostępne logi, raporty awarii i zapis do jednego ZIP-a. Przejrzyj archiwum przed wysłaniem, a następnie przeciągnij je do formularza razem ze screenem lub filmem. Nie publikuj adresu IP ani danych konta.
+
+## Dokumentacja publiczna
+
+- [Wizja projektu](GEARSOUL_VISION.md)
+- [Roadmapa](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
+- [Licencje i zasoby prototypowe](LICENSES_AND_ASSETS.md)
+- [Dziennik rozwoju](DEVELOPMENT_LOG.md)
+- [Checklista testera](TESTING_CHECKLIST_PL.md)
 
 ## Integralność pobrania
 
 SHA-256:
 
 ```text
-B5A08B41F7F09EB3970140F5721F86FE346542ED0040A8DB08881F920BDD89BF
+A12B22FC8741CEFE5FA3CE190E03E3310B59B8C89ED4BB9D98DE47B5C4F98B9E
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.4.0 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.4.1 Pre-Alpha Multiplayer Playtest
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
