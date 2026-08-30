@@ -75,3 +75,5 @@
 ## Raport
 
 Zapisz rolę (solo/host/klient), liczbę graczy, kroki, oczekiwany i faktyczny rezultat, powtarzalność oraz załącznik. Logi są zwykle w `%LOCALAPPDATA%\GearlSoul1\Saved\Logs`.
+
+Raport wyślij na **[gearsoul00@gmail.com](mailto:gearsoul00@gmail.com)**. Nie dołączaj publicznego adresu IP ani danych konta.

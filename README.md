@@ -51,6 +51,12 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 
 Pełna lista znajduje się w `README_PL.md` wewnątrz paczki oraz w [checkliście testera](TESTING_CHECKLIST_PL.md).
 
+## Zgłaszanie błędów
+
+Błędy, uwagi i materiały z testów wysyłaj na **[gearsoul00@gmail.com](mailto:gearsoul00@gmail.com)**.
+
+W wiadomości podaj tryb (solo/host/klient), liczbę graczy, kroki prowadzące do błędu, oczekiwany rezultat oraz dołącz screen, film lub log, jeśli jest dostępny. Nie przesyłaj publicznie swojego adresu IP ani danych konta.
+
 ## Integralność pobrania
 
 SHA-256:
