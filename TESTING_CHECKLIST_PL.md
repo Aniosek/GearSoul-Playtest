@@ -1,4 +1,4 @@
-# GearSoul v0.3.0 — pełna checklista testera
+# GearSoul v0.4.0 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -18,7 +18,7 @@
 ## Inventory i materia
 
 - [ ] Start zawiera tylko FireDrill, StonePickaxe i MasonryHammer.
-- [ ] 42 pickupy można fizycznie zebrać.
+- [ ] 48 przedmiotów z galerii można fizycznie zebrać.
 - [ ] Masa, objętość i sloty są prawidłowo przeliczane.
 - [ ] Plecak zwiększa pojemność dopiero po założeniu i nadal ma własną masę.
 - [ ] Przedmioty leżą stabilnie i nie wystrzeliwują po zetknięciu z graczem.
@@ -26,6 +26,8 @@
 
 ## Świat i produkcja
 
+- [ ] Naturalny teren, drzewa, rzeka i droga wczytują się poprawnie bez szarej pustej planszy.
+- [ ] Ekwipunek mieści się na ekranie 1600×900, tekst się nie nakłada, a przyciski pozostają dostępne.
 - [ ] Drzewa, kłody, opał i ognisko tworzą pełny fizyczny ciąg.
 - [ ] Glina przechodzi przez mokrą, suszoną i wypaloną cegłę.
 - [ ] Fundament, zaprawa, mur, palisada i rozbiórka działają.
@@ -44,6 +46,10 @@
 - [ ] Trzy jelenie poruszają się jako stado bez humanoidalnych NPC.
 - [ ] Karmienie i pojenie zwierzęcia zużywa dokładnie jedną realną porcję.
 - [ ] Wół daje się przypiąć do wozu i ciągnie go wyłącznie podczas prowadzenia przez gracza.
+- [ ] Ścięty las można odnowić fizyczną sadzonką, a skutki dla gleby pozostają zapisane.
+- [ ] Most przyjmuje osiem osobnych kłód, wymaga młotka i blokuje przeciążony wóz.
+- [ ] Żelazne narzędzia można złożyć i naprawić z właściwej głowicy oraz trzonka.
+- [ ] Suche magazyny i chłodne piwnice inaczej wpływają na świeżość żywności.
 
 ## Gracze i gospodarka
 
