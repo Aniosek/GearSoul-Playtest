@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.4.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.4.1/GearSoul_v0.4.1_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.6.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.6.0/GearSoul_v0.6.0_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **606 MiB**.
+Rozmiar archiwum: około **628 MiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -18,7 +18,7 @@ Rozmiar archiwum: około **606 MiB**.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## GearSoul v0.4.1 na screenach
+## GearSoul na screenach
 
 ![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
 
@@ -30,15 +30,17 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.4.1
+## Co zmieniło się w v0.6.0
 
-- usunięto zawieszony i przenikalny pierścień wzgórz,
-- zmniejszono mapę testową do zwartego obszaru około 90×90 m i dodano pewną granicę kolizyjną,
-- poprawiono osadzenie drzew przy powierzchni gruntu,
-- niedostępna interakcja z drzewem podaje teraz konkretny powód,
-- dodano generator paczki diagnostycznej oraz formularz zgłoszenia błędu na GitHubie.
+- dodano fizyczną **Tablicę Zleceń Graczy** bez zadań generowanych przez NPC,
+- zleceniodawca blokuje trzy prawdziwe srebrne monety, a drugi gracz przyjmuje pracę i dostarcza dwie kłody pojedynczo,
+- ostatnia dostawa atomowo wypłaca nagrodę, a materiały trafiają do fizycznego magazynu odbioru,
+- zlecenie, częściowe dostawy oraz oba magazyny escrow są trwale zapisywane i odporne na restart,
+- ukończona praca pokazuje krótki polski komunikat XP nad właściwą postacią,
+- prowadzenie wołu nie rozprzęga wozu, a ruch stad jest płynniejszy,
+- dodano Punkty Wiedzy, działkę osady oraz kooperacyjną budowę domu i kuźni z prawdziwych materiałów.
 
-Systemy z v0.4.0 pozostają dostępne:
+Wcześniejsze systemy pozostają dostępne:
 
 - mapa testowa ma naturalny teren, rzekę, las i lekkie stylizowane drzewa,
 - ekwipunek otrzymał czytelny układ i prawidłowe skalowanie w 1600×900,
@@ -62,6 +64,8 @@ Systemy z v0.4.0 pozostają dostępne:
 - oczyszczanie i magazynowanie fizycznej wody,
 - ruch stada, karmienie, pojenie i prowadzenie wołu z wozem,
 - odnowa lasu, budowa mostu, kowalstwo i regionalne magazyny żywności.
+- Punkty Wiedzy, specjalizacje, pierścień działki oraz wspólna budowa domu i kuźni.
+- Tablica Zleceń: utworzenie zlecenia, przyjęcie go przez drugiego gracza, dwie osobne dostawy, wypłata i odbiór materiałów.
 
 Pełna lista znajduje się w `README_PL.md` wewnątrz paczki oraz w [checkliście testera](TESTING_CHECKLIST_PL.md).
 
@@ -85,12 +89,12 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 SHA-256:
 
 ```text
-A12B22FC8741CEFE5FA3CE190E03E3310B59B8C89ED4BB9D98DE47B5C4F98B9E
+7236114F0F1575BA86E6869656ADBABDB1488066134562D0F7975BC84B6F26B5
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.4.1 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.6.0 Pre-Alpha Multiplayer Playtest
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój

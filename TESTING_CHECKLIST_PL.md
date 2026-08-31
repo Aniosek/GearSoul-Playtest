@@ -1,4 +1,4 @@
-# GearSoul v0.4.0 — pełna checklista testera
+# GearSoul v0.6.0 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -54,6 +54,8 @@
 ## Gracze i gospodarka
 
 - [ ] Profesje rozwijają się dopiero przez wykonane czynności.
+- [ ] Komunikat XP pojawia się krótko nad postacią, która naprawdę wykonała pracę, i ma polską nazwę zawodu.
+- [ ] Punkty Wiedzy mają ograniczony budżet i nie pozwalają jednej postaci odblokować wszystkich specjalizacji.
 - [ ] Claim ogranicza budowę, rozbiórkę i infrastrukturę bez uprawnień.
 - [ ] Barter wymaga dwóch prawdziwych graczy i akceptacji obu stron.
 - [ ] Wóz ma fizyczny ładunek, części, masę i wpływ drogi.
@@ -61,6 +63,11 @@
 - [ ] Regiony różnią się dostępem do zasobów.
 - [ ] Plac osady przyjmuje osobno 1 zestaw sztandaru, 4 kłody i 4 kamienie.
 - [ ] Woda, magazyn, barter i naprawy stają się usługą osady dopiero po rejestracji istniejącej infrastruktury.
+- [ ] Autor zlecenia wpłaca trzy prawdziwe srebrne monety do Tablicy Zleceń.
+- [ ] Inny gracz przyjmuje zlecenie i dostarcza dwie kłody pojedynczo.
+- [ ] Ostatnia dostawa wypłaca dokładnie trzy monety wykonawcy, a kłody czekają na autora.
+- [ ] Anulowanie nieprzyjętego zlecenia zwraca nagrodę, ale nie tworzy kopii przedmiotów.
+- [ ] Restart świata zachowuje otwarte zlecenie, postęp dostaw i zawartość escrow.
 
 ## Przetrwanie i medycyna
 
