@@ -92,6 +92,17 @@
 - [ ] Leczenie nie przywraca magicznie punktów HP.
 - [ ] Śmierć kończy historię konkretnej postaci bez tworzenia NPC.
 
+## Żywność, wóz i drogi — v0.7.1
+
+- [ ] Zebrane ziarno można wysuszyć, zapakować do worka i umieścić w spichlerzu bez tworzenia darmowych porcji.
+- [ ] Gotowanie gulaszu zużywa mięso, wodę, paliwo i sprawny zapłon, a po ukończeniu zwraca ten sam garnek.
+- [ ] Suszenie, solenie, wędzenie i fermentacja mają różne fizyczne składniki, czasy oraz produkty.
+- [ ] Załadowany wóz nie rusza bez fizycznej liny, a zdjęcie liny zwraca ten sam stos.
+- [ ] Człowiek może chwycić dyszel tylko przy zabezpieczonym ładunku do 200 kg i traci energię podczas ciągnięcia.
+- [ ] Cięższy wóz wymaga wołu; ręczny ciągnący i zwierzę nie napędzają go równocześnie.
+- [ ] Ścieżka, droga ziemna, utwardzona i kamienna dają zauważalnie różny wysiłek, prędkość i zużycie kół.
+- [ ] Puszczenie dyszla, oddalenie, utrata energii lub uszkodzenie wozu nie blokują ruchu postaci.
+
 ## Raport
 
 Zapisz rolę (solo/host/klient), liczbę graczy, kroki, oczekiwany i faktyczny rezultat, powtarzalność oraz załącznik. Logi są zwykle w `%LOCALAPPDATA%\GearlSoul1\Saved\Logs`.

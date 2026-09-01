@@ -1,5 +1,14 @@
 # GearSoul — changelog
 
+## v0.7.1 — 2026-09-02
+
+- dodano fizyczne zbiory, spichlerz, gotowanie oraz suszenie, solenie, wędzenie i fermentację,
+- wóz otrzymał fizyczną linę mocującą, przeciążenie i uszkodzenia osi oraz obu kół,
+- dodano ręczne ciągnięcie lekkiego wozu do 200 kg z realnym kosztem energii,
+- wysiłek człowieka i zwierzęcia, prędkość oraz zużycie pojazdu zależą od nawierzchni,
+- mapa zawiera cztery podpisane rodzaje drogi i komplet stanowisk Etapów 0–68,
+- oficjalny build, 71/71 testów, spakowany serwer z dwoma klientami, restart zapisu i obciążenie 2/5/10/15 klientów zakończyły się powodzeniem.
+
 ## v0.7.0 — 2026-09-01
 
 - poprawiono gwałtowne obracanie zwierząt dzięki zachowaniu kierunku i limitowi prędkości skrętu,

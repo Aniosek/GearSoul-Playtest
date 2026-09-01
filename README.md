@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.7.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.7.0/GearSoul_v0.7.0_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.7.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.7.1/GearSoul_v0.7.1_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **634 MiB**.
+Rozmiar archiwum: około **606 MiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -30,7 +30,16 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.7.0
+## Co zmieniło się w v0.7.1
+
+- ukończono fizyczny łańcuch zbiorów, spichlerza, gotowania i czterech metod konserwacji żywności,
+- wóz ma osobną linę mocującą, fizyczny ładunek, przeciążenie oraz uszkodzenia osi i obu kół,
+- człowiek może chwycić dyszel i ręcznie ciągnąć zabezpieczony wóz do 200 kg, zużywając własną energię,
+- cięższy transport wymaga zwierzęcia pociągowego, które zużywa wytrzymałość zależnie od nawierzchni i ładunku,
+- ścieżka, droga ziemna, utwardzona i kamienna różnią się prędkością, wysiłkiem oraz zużyciem pojazdu,
+- wszystkie systemy Etapów 0–68 są ustawione na mapie i przeszły wspólny audyt integracji.
+
+W v0.7.1 pozostają także systemy z v0.7.0:
 
 - zwierzęta zachowują kierunek i skręcają płynnie z ograniczoną prędkością zamiast gwałtownie obracać się w miejscu,
 - osada przechowuje prawdziwych członków i role: założyciela, zarządcę, budowniczego oraz mieszkańca,
@@ -74,6 +83,8 @@ Wcześniejsze systemy pozostają dostępne:
 - stabilne rozmieszczanie surowców bez nakładania i wystrzeliwania obiektów,
 - oczyszczanie i magazynowanie fizycznej wody,
 - ruch stada, karmienie, pojenie i prowadzenie wołu z wozem,
+- zabezpieczanie ładunku liną oraz ręczne chwytanie i puszczanie dyszla,
+- porównanie ruchu lekkiego wozu na czterech podpisanych nawierzchniach,
 - płynne skręcanie zwierząt bez gwałtownego „tańca”,
 - odnowa lasu, budowa mostu, kowalstwo i regionalne magazyny żywności.
 - członkostwo i role osady, gospoda oraz warunek pięciu prawdziwych graczy,
@@ -103,12 +114,12 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 SHA-256:
 
 ```text
-B3BCD6D87C6C0984F030809107DCDF80AD08D3F26295C4DDF1D826E3A413716D
+5F69187C74DC8094F4937A77FE265AC160488CDEA0CCC54DBAA1C7A182EA4417
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.7.0 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.7.1 Pre-Alpha Multiplayer Playtest — Etapy 0–68
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
