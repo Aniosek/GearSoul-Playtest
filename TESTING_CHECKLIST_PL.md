@@ -1,4 +1,4 @@
-# GearSoul v0.6.0 — pełna checklista testera
+# GearSoul v0.7.0 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -44,6 +44,7 @@
 - [ ] Alchemia tworzy fizyczny eliksir maskujący, a efekt jest czasowy.
 - [ ] Surowa woda ma jakość, oczyszczanie zużywa opał, a beczka zachowuje fizyczne porcje.
 - [ ] Trzy jelenie poruszają się jako stado bez humanoidalnych NPC.
+- [ ] Jelenie i wół skręcają płynnie, nie wirują ani nie zmieniają gwałtownie kierunku co kilka klatek.
 - [ ] Karmienie i pojenie zwierzęcia zużywa dokładnie jedną realną porcję.
 - [ ] Wół daje się przypiąć do wozu i ciągnie go wyłącznie podczas prowadzenia przez gracza.
 - [ ] Ścięty las można odnowić fizyczną sadzonką, a skutki dla gleby pozostają zapisane.
@@ -62,12 +63,24 @@
 - [ ] Karawana wymaga gracza, wozu i prawdziwego ładunku.
 - [ ] Regiony różnią się dostępem do zasobów.
 - [ ] Plac osady przyjmuje osobno 1 zestaw sztandaru, 4 kłody i 4 kamienie.
+- [ ] Prawdziwy gracz może dołączyć do osady i otrzymuje zapisaną rolę; system nie tworzy mieszkańców NPC.
+- [ ] Osada staje się działająca dopiero przy pięciu członkach oraz po rejestracji magazynu, domu, warsztatu i gospody.
+- [ ] Plac gospody przyjmuje 10 osobnych kłód i 12 poprawnych cykli młotkiem wykonywanych wspólnie przez graczy.
 - [ ] Woda, magazyn, barter i naprawy stają się usługą osady dopiero po rejestracji istniejącej infrastruktury.
 - [ ] Autor zlecenia wpłaca trzy prawdziwe srebrne monety do Tablicy Zleceń.
 - [ ] Inny gracz przyjmuje zlecenie i dostarcza dwie kłody pojedynczo.
 - [ ] Ostatnia dostawa wypłaca dokładnie trzy monety wykonawcy, a kłody czekają na autora.
 - [ ] Anulowanie nieprzyjętego zlecenia zwraca nagrodę, ale nie tworzy kopii przedmiotów.
 - [ ] Restart świata zachowuje otwarte zlecenie, postęp dostaw i zawartość escrow.
+
+## Gleba i uprawy
+
+- [ ] Pole przyjmuje trzy pełne cykle pracy łopatą przed siewem.
+- [ ] Suche pole wymaga fizycznej porcji wody, a wysiew zużywa dokładnie cztery ziarna.
+- [ ] Zepsute jedzenie użyte jako kompost znika z ekwipunku i zwiększa żyzność zamiast tworzyć darmowy nawóz.
+- [ ] Susza i upał obniżają wilgotność, burza ją zwiększa, a ochłodzenie wywołuje stres pogodowy.
+- [ ] Zaniedbane pole zbiera chwasty lub chorobę; pielęgnacja zużywa pracę i poprawia stan pola.
+- [ ] Jakość oraz wielkość zbioru zależą od wilgotności, żyzności, pory roku, pogody, chwastów i chorób.
 
 ## Przetrwanie i medycyna
 

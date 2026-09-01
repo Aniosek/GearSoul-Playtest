@@ -1,5 +1,15 @@
 # GearSoul — changelog
 
+## v0.7.0 — 2026-09-01
+
+- poprawiono gwałtowne obracanie zwierząt dzięki zachowaniu kierunku i limitowi prędkości skrętu,
+- dodano rzeczywistych członków oraz role osady bez generowania zastępczych NPC,
+- działająca osada wymaga pięciu graczy, magazynu, domu, warsztatu i gospody,
+- dodano fizyczną, kooperacyjną budowę gospody,
+- rozbudowano przygotowanie gleby, podlewanie i nawożenie skończonym kompostem,
+- wzrost i plon reagują na pogodę, porę roku, wilgotność, żyzność, chwasty i choroby,
+- oficjalny build UE 5.8, 70/70 testów automatycznych i smoke test spakowanej wersji z hostem oraz dwoma klientami zakończyły się powodzeniem.
+
 ## v0.6.0 — 2026-08-31
 
 - fizyczna Tablica Zleceń Graczy z blokadą prawdziwej nagrody w escrow,

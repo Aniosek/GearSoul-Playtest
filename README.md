@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.6.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.6.0/GearSoul_v0.6.0_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.7.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.7.0/GearSoul_v0.7.0_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **628 MiB**.
+Rozmiar archiwum: około **634 MiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -30,7 +30,18 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.6.0
+## Co zmieniło się w v0.7.0
+
+- zwierzęta zachowują kierunek i skręcają płynnie z ograniczoną prędkością zamiast gwałtownie obracać się w miejscu,
+- osada przechowuje prawdziwych członków i role: założyciela, zarządcę, budowniczego oraz mieszkańca,
+- działająca osada wymaga pięciu prawdziwych graczy oraz magazynu, domu, warsztatu i gospody,
+- dodano kooperacyjną budowę gospody z 10 osobnych kłód i 12 cykli pracy młotkiem,
+- przygotowanie pola wymaga trzech cykli pracy łopatą, fizycznej wody i czterech ziaren,
+- zepsute jedzenie może zostać zużyte jako skończony kompost poprawiający żyzność gleby,
+- uprawy reagują na wilgotność, żyzność, porę roku, chwasty, choroby, suszę, upał, burzę i ochłodzenie,
+- wszystkie nowe systemy stoją na mapie testowej i są dostępne w multiplayerze.
+
+W v0.7.0 pozostają także systemy z v0.6.0:
 
 - dodano fizyczną **Tablicę Zleceń Graczy** bez zadań generowanych przez NPC,
 - zleceniodawca blokuje trzy prawdziwe srebrne monety, a drugi gracz przyjmuje pracę i dostarcza dwie kłody pojedynczo,
@@ -63,7 +74,10 @@ Wcześniejsze systemy pozostają dostępne:
 - stabilne rozmieszczanie surowców bez nakładania i wystrzeliwania obiektów,
 - oczyszczanie i magazynowanie fizycznej wody,
 - ruch stada, karmienie, pojenie i prowadzenie wołu z wozem,
+- płynne skręcanie zwierząt bez gwałtownego „tańca”,
 - odnowa lasu, budowa mostu, kowalstwo i regionalne magazyny żywności.
+- członkostwo i role osady, gospoda oraz warunek pięciu prawdziwych graczy,
+- przygotowanie gleby, podlewanie, kompost, chwasty, choroby i wpływ pogody na plon.
 - Punkty Wiedzy, specjalizacje, pierścień działki oraz wspólna budowa domu i kuźni.
 - Tablica Zleceń: utworzenie zlecenia, przyjęcie go przez drugiego gracza, dwie osobne dostawy, wypłata i odbiór materiałów.
 
@@ -89,12 +103,12 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 SHA-256:
 
 ```text
-7236114F0F1575BA86E6869656ADBABDB1488066134562D0F7975BC84B6F26B5
+B3BCD6D87C6C0984F030809107DCDF80AD08D3F26295C4DDF1D826E3A413716D
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.6.0 Pre-Alpha Multiplayer Playtest
+- **Wersja:** v0.7.0 Pre-Alpha Multiplayer Playtest
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój

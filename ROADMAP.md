@@ -2,11 +2,11 @@
 
 Roadmapa opisuje kierunek, a nie gwarantowane daty. Kolejność wewnątrz zakresów może zmienić się po testach prawdziwych graczy.
 
-## Etapy 1–56 — COMPLETED
+## Etapy 1–62 — COMPLETED
 
-Fundament C++ i multiplayer, fizyczne przedmioty, przetrwanie, dzień/noc, zbieranie zasobów, budowanie i rozbiórka, claimy, barter, wozy, drogi, kopalnie, metalurgia, rolnictwo, regiony, karawany, trwały świat, reputacja, medycyna, kataklizmy, narzędzia, kooperacyjna budowa, woda, zwierzęta transportowe, osady, mosty, odnawianie lasu, naprawialne wyposażenie, regionalne magazynowanie żywności, Punkty Wiedzy, działki osad, budynki graczy, informacja o XP oraz fizyczne zlecenia między graczami.
+Fundament C++ i multiplayer, fizyczne przedmioty, przetrwanie, dzień/noc, zbieranie zasobów, budowanie i rozbiórka, claimy, barter, wozy, drogi, kopalnie, metalurgia, rolnictwo, regiony, karawany, trwały świat, reputacja, medycyna, kataklizmy, narzędzia, kooperacyjna budowa, woda, zwierzęta transportowe, osady, mosty, odnawianie lasu, naprawialne wyposażenie, regionalne magazynowanie żywności, Punkty Wiedzy, działki osad, budynki graczy, informacja o XP, fizyczne zlecenia między graczami, prawdziwe członkostwo i role osady, gospoda oraz przygotowanie gleby i uprawy zależne od środowiska.
 
-## Etapy 57–75 — IN DEVELOPMENT
+## Etapy 63–75 — IN DEVELOPMENT
 
 - Punkty Wiedzy oraz ograniczone specjalizacje, oddzielone od praktycznego XP zawodu.
 - Czytelny ekran rozwoju profesji i wymagań receptur.
