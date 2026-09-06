@@ -1,4 +1,4 @@
-# GearSoul v0.7.0 — pełna checklista testera
+# GearSoul v0.8.0 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -7,6 +7,8 @@
 - [ ] Klient w LAN dołącza po IPv4 hosta.
 - [ ] Co najmniej dwóch klientów widzi ruch, interakcje i zmiany świata.
 - [ ] Zamknięcie jednego klienta nie blokuje pozostałych.
+- [ ] MetaHuman hosta i klientów stoi na ziemi, płynnie chodzi i obraca się bez skręcania kończyn.
+- [ ] Narzędzia pozostają w prawej dłoni MetaHumana i są widoczne dla innych graczy.
 
 ## Sterowanie i interakcja
 
@@ -51,6 +53,8 @@
 - [ ] Most przyjmuje osiem osobnych kłód, wymaga młotka i blokuje przeciążony wóz.
 - [ ] Żelazne narzędzia można złożyć i naprawić z właściwej głowicy oraz trzonka.
 - [ ] Suche magazyny i chłodne piwnice inaczej wpływają na świeżość żywności.
+- [ ] Kamienna siekiera, kilof, łopata i młotek pokazują osobne części oraz kolejne etapy składania.
+- [ ] Kuźnia, miechy i skrzynia warsztatowa są czytelne, mają poprawną skalę i nie powodują zauważalnych przycięć.
 
 ## Gracze i gospodarka
 
@@ -72,6 +76,9 @@
 - [ ] Ostatnia dostawa wypłaca dokładnie trzy monety wykonawcy, a kłody czekają na autora.
 - [ ] Anulowanie nieprzyjętego zlecenia zwraca nagrodę, ale nie tworzy kopii przedmiotów.
 - [ ] Restart świata zachowuje otwarte zlecenie, postęp dostaw i zawartość escrow.
+- [ ] Cena regionalna powstaje dopiero z zakończonych transakcji dwóch różnych graczy.
+- [ ] Kontrakt transportowy wymaga właściwego wozu, karawany, fizycznego ładunku i dotarcia do regionu docelowego.
+- [ ] Anulowanie lub nieudany transport zwraca fizyczne escrow bez duplikowania przedmiotów.
 
 ## Gleba i uprawy
 

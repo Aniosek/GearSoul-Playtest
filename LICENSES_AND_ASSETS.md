@@ -13,6 +13,22 @@ Kod źródłowy GearSoul nie jest publikowany w tym repozytorium. Publiczna pacz
 
 Wymienione elementy zostały zweryfikowane jako **CC0 1.0 Universal**. GearSoul nie przypisuje sobie ich autorstwa. Szczegółowe informacje znajdują się także w `THIRD_PARTY_NOTICES.txt` wewnątrz wydania.
 
+## Epic MetaHuman
+
+Postać v0.8.0 została złożona lokalnie z `MetaHuman Creator Core Data`
+dostarczonych z Unreal Engine 5.8. Jest to licencjonowana zawartość Epic typu
+**UE-Only Content**. Repozytorium nie publikuje edytowalnych źródeł MetaHumana;
+wydanie zawiera wyłącznie ugotowaną zawartość działającą w Unreal Engine.
+
+- [MetaHuman Creator w Unreal Engine](https://dev.epicgames.com/documentation/metahuman/metahuman-creator-in-unreal-engine)
+- [Epic Content License Agreement](https://www.unrealengine.com/eula/content)
+
+## Autorskie zasoby v0.8.0
+
+Modułowe kamienne narzędzia, etapy ich wykonania, kuźnia, miechy kowalskie i
+skrzynia warsztatowa zostały wykonane dla GearSoul. Nie pochodzą z zewnętrznej
+paczki assetów.
+
 ## Co stanowi rozwijany projekt
 
-Wartością GearSoul są autorskie systemy rozgrywki, architektura multiplayer, reguły gospodarki, projekt świata, dokumentacja i własna zawartość. Obecne zasoby CC0 są placeholderami do testów i nie są przedstawiane jako element przyszłej sprzedaży IP.
+Wartością GearSoul są autorskie systemy rozgrywki, architektura multiplayer, reguły gospodarki, projekt świata, dokumentacja i własna zawartość. Obecne zasoby CC0 są placeholderami do testów i nie są przedstawiane jako element przyszłej sprzedaży IP. Zawartość Epic zachowuje własną licencję i nie jest przedstawiana jako autorskie IP GearSoul.

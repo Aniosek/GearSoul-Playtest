@@ -1,5 +1,14 @@
 # GearSoul — changelog
 
+## v0.8.0 — 2026-09-06
+
+- Etapy 69–70: regionalne ceny oparte na rzeczywistych transakcjach graczy oraz fizyczne kontrakty transportowe z escrow,
+- zoptymalizowany MetaHuman Medium/JointsOnly jako nowa warstwa wizualna postaci,
+- autorskie, modułowe kamienne narzędzia i etapy ich wykonania,
+- autorska kuźnia, miechy i skrzynia warsztatowa z trzema poziomami LOD,
+- poprawiona kolejność ładowania MetaHumanSDKRuntime bez ostrzeżenia podczas gotowania,
+- 73/73 testy automatyczne, udany `BuildCookRun` oraz smoke test czystego EXE z kodem 0.
+
 ## v0.7.1 — 2026-09-02
 
 - dodano fizyczne zbiory, spichlerz, gotowanie oraz suszenie, solenie, wędzenie i fermentację,

@@ -17,3 +17,11 @@ Ten plik opisuje rezultaty i decyzje, nie publikuje kodu źródłowego ani prywa
 - Dodano prawdziwych członków i role osady, warunek pięciu graczy oraz kooperacyjną gospodę.
 - Pola wymagają fizycznej pracy, wody, ziaren i opcjonalnego kompostu; pogoda, chwasty i choroby wpływają na plon.
 - Build, 70/70 testów oraz test finalnej paczki z hostem i dwoma klientami zakończyły się sukcesem.
+
+## 2026-09-06
+
+- Ukończono Etapy 69–70: rynek regionalny oparty na transakcjach graczy i fizyczne kontrakty transportowe.
+- Zintegrowano zoptymalizowaną postać Epic MetaHuman jako warstwę wizualną bez przenoszenia autorytetu ruchu i ekwipunku poza istniejącą postać sieciową.
+- Dodano autorskie modele etapów wykonania kamiennych narzędzi oraz wyposażenie warsztatu: kuźnię, miechy i skrzynię.
+- Poprawiono kolejność ładowania modułu MetaHuman, a końcowe gotowanie przeszło bez ostrzeżenia o brakującej klasie komponentu.
+- Build, 73/73 testy automatyczne i smoke test czystej paczki Windows zakończyły się sukcesem.

@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.7.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.7.1/GearSoul_v0.7.1_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.8.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.0/GearSoul_v0.8.0_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **606 MiB**.
+Rozmiar archiwum: około **1,53 GiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -19,6 +19,10 @@ Rozmiar archiwum: około **606 MiB**.
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
 ## GearSoul na screenach
+
+![MetaHuman na mapie testowej GearSoul v0.8.0](screenshots/v0.8.0/01_metahuman_na_mapie_testowej.png)
+
+Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.0.
 
 ![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
 
@@ -30,7 +34,15 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.7.1
+## Co zmieniło się w v0.8.0
+
+- ukończono Etapy 69–70: ceny regionalne wynikają wyłącznie z zakończonych transakcji prawdziwych graczy, a transport działa przez fizyczne kontrakty, ładunek, wóz, karawanę i escrow,
+- manekin prezentacyjny został zastąpiony zoptymalizowanym MetaHumanem klasy Medium; istniejąca postać nadal bezpiecznie obsługuje ruch, sieć, kolizję i sockety narzędzi,
+- dodano autorskie, modułowe kamienne narzędzia: osobne surowce, trzonki, wiązania, etapy składania i ukończone warianty,
+- dodano autorską kuźnię, miechy kowalskie i skrzynię warsztatową z trzema poziomami LOD,
+- pełna regresja zaliczyła 73/73 testy, końcowe gotowanie nie zgłosiło błędu MetaHumana, a smoke test gotowego EXE zakończył się kodem 0.
+
+W v0.8.0 pozostają także systemy z v0.7.1:
 
 - ukończono fizyczny łańcuch zbiorów, spichlerza, gotowania i czterech metod konserwacji żywności,
 - wóz ma osobną linę mocującą, fizyczny ładunek, przeciążenie oraz uszkodzenia osi i obu kół,
@@ -79,6 +91,9 @@ Wcześniejsze systemy pozostają dostępne:
 - wydobycie, ścinanie drzew, produkcja, ognisko, rolnictwo i medycyna,
 - synchronizacja dnia, nocy, przetrwania oraz zdarzeń środowiskowych,
 - wygląd i położenie siekiery, kilofa i młotka w prawej dłoni innych graczy,
+- poprawne położenie, ruch i obrót MetaHumana hosta oraz klientów bez skręcania ciała,
+- kolejne etapy wykonania kamiennej siekiery, kilofa, łopaty i młotka z osobnych części,
+- wygląd i wydajność autorskiej kuźni, miechów oraz skrzyni warsztatowej,
 - wspólny postęp dostarczania materiałów i pracy na placu budowy,
 - stabilne rozmieszczanie surowców bez nakładania i wystrzeliwania obiektów,
 - oczyszczanie i magazynowanie fizycznej wody,
@@ -114,16 +129,16 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 SHA-256:
 
 ```text
-5F69187C74DC8094F4937A77FE265AC160488CDEA0CCC54DBAA1C7A182EA4417
+C04488C377BBBDCCDD27EFFDC5441C8EFB46E32D2E1FCADD5B31C0065CFDD599
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.7.1 Pre-Alpha Multiplayer Playtest — Etapy 0–68
+- **Wersja:** v0.8.0 Pre-Alpha Multiplayer Playtest — Etapy 0–70
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
 
 Kod źródłowy gry nie jest publikowany w tym repozytorium. Zawartość wydania jest spakowana jako Unreal Pak/IoStore; nie da się jednak zagwarantować absolutnej niemożliwości analizy aplikacji uruchamianej na komputerze testera.
 
-Copyright © 2026 Aniosek — kod i autorska zawartość GearSoul. Publiczna paczka służy do testowania i nie udziela praw do kodu ani autorskich zasobów projektu. Informacje o wykorzystanych zasobach CC0 znajdują się wewnątrz paczki.
+Copyright © 2026 Aniosek — kod i autorska zawartość GearSoul. Publiczna paczka służy do testowania i nie udziela praw do kodu ani autorskich zasobów projektu. Informacje o zasobach CC0 i licencjonowanej zawartości Epic znajdują się wewnątrz paczki.
