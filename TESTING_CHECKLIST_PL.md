@@ -1,4 +1,4 @@
-# GearSoul v0.8.0 — pełna checklista testera
+# GearSoul v0.8.1 — pełna checklista testera
 
 ## Start i multiplayer
 
@@ -98,6 +98,18 @@
 - [ ] HerbalExtract leczy infekcję dopiero po opatrzeniu rany.
 - [ ] Leczenie nie przywraca magicznie punktów HP.
 - [ ] Śmierć kończy historię konkretnej postaci bez tworzenia NPC.
+
+## Odzież i pogoda — v0.8.1
+
+- [ ] Przy ognisku można znaleźć i podnieść lnianą koszulę spodnią, wełnianą tunikę oraz skórzany płaszcz.
+- [ ] Każdy element zajmuje inną warstwę: bazową, ocieplającą albo zewnętrzną; interfejs pokazuje dokładnie trzy założone warstwy.
+- [ ] Ponowne użycie założonego ubrania je zdejmuje, a inne ubranie tej samej warstwy zastępuje poprzednie bez utraty przedmiotu.
+- [ ] Plecak można zakładać i zdejmować niezależnie od odzieży, a jego pojemność nie jest doliczana przez zwykłe ubrania.
+- [ ] Polecenie `GSTestCataclysm Storm 30 1` stopniowo moczy ubrania od zewnętrznej warstwy do wewnętrznej.
+- [ ] Mokra wełniana tunika zapewnia mniej izolacji niż sucha, a ochrona nigdy nie zatrzymuje całkowicie wpływu temperatury.
+- [ ] Polecenie `GSTestCataclysm Clear` rozpoczyna suszenie; przy rozpalonym ognisku ubrania schną wyraźnie szybciej.
+- [ ] Wilgotność pozostaje w zakresie 0–100% i zachowuje się po zapisie oraz ponownym uruchomieniu świata.
+- [ ] Parametry odzieży działają sieciowo i nie rozjeżdżają ekwipunku hosta ani klienta.
 
 ## Żywność, wóz i drogi — v0.7.1
 

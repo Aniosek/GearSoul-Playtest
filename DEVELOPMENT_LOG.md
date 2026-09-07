@@ -25,3 +25,11 @@ Ten plik opisuje rezultaty i decyzje, nie publikuje kodu źródłowego ani prywa
 - Dodano autorskie modele etapów wykonania kamiennych narzędzi oraz wyposażenie warsztatu: kuźnię, miechy i skrzynię.
 - Poprawiono kolejność ładowania modułu MetaHuman, a końcowe gotowanie przeszło bez ostrzeżenia o brakującej klasie komponentu.
 - Build, 73/73 testy automatyczne i smoke test czystej paczki Windows zakończyły się sukcesem.
+
+## 2026-09-07
+
+- Ukończono Etap 71: trzy fizyczne warstwy odzieży, moknięcie, suszenie i ochrona przed pogodą.
+- Każde ubranie zachowuje własną wilgotność, trwałość, jakość i tożsamość; mokra odzież izoluje słabiej, ale żadna kombinacja nie daje pełnej odporności na środowisko.
+- Burza moczy warstwy od zewnątrz, pogoda bez opadów je osusza, a rozpalone ognisko przyspiesza proces do sześciu razy bez nowego ciągłego przeliczania każdej klatki.
+- Poprawiono rozdzielenie plecaka od ubrań oraz ustabilizowano pozycję startową drugiego gracza w teście karawany.
+- Build, 75/75 testów, regresja hosta i dwóch klientów, restart zapisu, gotowanie oraz smoke test finalnego EXE zakończyły się sukcesem.

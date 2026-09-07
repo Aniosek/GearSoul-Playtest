@@ -1,5 +1,14 @@
 # GearSoul — changelog
 
+## v0.8.1 — 2026-09-07
+
+- Etap 71: trzy fizyczne warstwy odzieży — bazowa, ocieplająca i zewnętrzna,
+- indywidualna wilgotność ubrań, moknięcie od warstwy zewnętrznej podczas burzy i osłabienie izolacji po przemoczeniu,
+- naturalne suszenie oraz suszenie do 6× szybsze przy rozpalonym ognisku,
+- bezpieczna zamiana ubrania w tej samej warstwie, niezależne wyposażenie plecaka i walidacja całego zestawu,
+- migracja trwałego zapisu do schematu 3 z zachowaniem zgodności starszych suchych przedmiotów,
+- 75/75 testów automatycznych, udany `BuildCookRun`, regresja multiplayer i smoke test finalnego EXE.
+
 ## v0.8.0 — 2026-09-06
 
 - Etapy 69–70: regionalne ceny oparte na rzeczywistych transakcjach graczy oraz fizyczne kontrakty transportowe z escrow,

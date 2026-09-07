@@ -2,17 +2,16 @@
 
 Roadmapa opisuje kierunek, a nie gwarantowane daty. Kolejność wewnątrz zakresów może zmienić się po testach prawdziwych graczy.
 
-## Etapy 1–70 — COMPLETED
+## Etapy 1–71 — COMPLETED
 
-Fundament C++ i multiplayer, fizyczne przedmioty, przetrwanie, dzień/noc, zbieranie zasobów, budowanie i rozbiórka, claimy, barter, wozy, drogi, kopalnie, metalurgia, rolnictwo, regiony, karawany, trwały świat, reputacja, medycyna, kataklizmy, narzędzia, kooperacyjna budowa, woda, zwierzęta transportowe, osady, mosty, odnawianie lasu, naprawialne wyposażenie, regionalne magazynowanie żywności, Punkty Wiedzy, działki osad, budynki graczy, informacja o XP, fizyczne zlecenia między graczami, prawdziwe członkostwo i role osady, gospoda, uprawy, gotowanie, konserwacja żywności, właściwy ładunek wozu, ręczne ciągnięcie, wpływ nawierzchni na transport, ceny wynikające z prawdziwych transakcji oraz fizyczne kontrakty przewozowe między regionami.
+Fundament C++ i multiplayer, fizyczne przedmioty, przetrwanie, dzień/noc, zbieranie zasobów, budowanie i rozbiórka, claimy, barter, wozy, drogi, kopalnie, metalurgia, rolnictwo, regiony, karawany, trwały świat, reputacja, medycyna, kataklizmy, narzędzia, kooperacyjna budowa, woda, zwierzęta transportowe, osady, mosty, odnawianie lasu, naprawialne wyposażenie, regionalne magazynowanie żywności, Punkty Wiedzy, działki osad, budynki graczy, informacja o XP, fizyczne zlecenia między graczami, prawdziwe członkostwo i role osady, gospoda, uprawy, gotowanie, konserwacja żywności, właściwy ładunek wozu, ręczne ciągnięcie, wpływ nawierzchni na transport, ceny wynikające z prawdziwych transakcji, fizyczne kontrakty przewozowe między regionami oraz trzy warstwy odzieży z moknięciem, suszeniem i ochroną przed pogodą.
 
-## Etapy 71–75 — IN DEVELOPMENT
+## Etapy 72–75 — IN DEVELOPMENT
 
-- Punkty Wiedzy oraz ograniczone specjalizacje, oddzielone od praktycznego XP zawodu.
-- Czytelny ekran rozwoju profesji i wymagań receptur.
-- Rozbudowa fizycznego craftingu, pracy, osad, gildii i gospodarki graczy.
-- Więcej konsekwencji środowiskowych, zagrożeń i współpracy bez zastępowania graczy przez NPC.
-- Utwardzenie publicznego playtestu, dostępność UI i dalsza optymalizacja multiplayera.
+- Etap 72: schronienie i wpływ rodzaju budynku na ochronę przed pogodą.
+- Etap 73: choroby, infekcje oraz leczenie zależne od stanu postaci i realnych środków.
+- Etap 74: ciężkie urazy i konsekwencje wymagające pomocy innych graczy.
+- Etap 75: rozszerzona pogoda i pory roku spięte z temperaturą, uprawami, podróżą i pracą.
 
 ## Etapy 76–82 — PLANNED
 

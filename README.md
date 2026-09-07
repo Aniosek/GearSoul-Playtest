@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.8.0 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.0/GearSoul_v0.8.0_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.8.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.1/GearSoul_v0.8.1_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **1,53 GiB**.
+Rozmiar archiwum: około **1,56 GiB**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -22,7 +22,7 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 
 ![MetaHuman na mapie testowej GearSoul v0.8.0](screenshots/v0.8.0/01_metahuman_na_mapie_testowej.png)
 
-Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.0.
+Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.1.
 
 ![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
 
@@ -34,7 +34,19 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.8.0
+## Co zmieniło się w v0.8.1
+
+- ukończono Etap 71: trzy fizyczne warstwy odzieży — bazową, ocieplającą i zewnętrzną,
+- dodano lnianą koszulę spodnią, wełnianą tunikę i skórzany płaszcz; każda sztuka zachowuje własny stan, jakość, trwałość oraz wilgotność,
+- burza moczy ubrania od warstwy zewnętrznej do wewnętrznej, a przemoczona odzież wyraźnie słabiej chroni przed temperaturą,
+- bezdeszczowa pogoda osusza ubrania, zaś rozpalone ognisko może przyspieszyć suszenie nawet sześciokrotnie,
+- jedna warstwa nie może zawierać dwóch ubrań jednocześnie; zamiana jest atomowa i nie gubi przedmiotów, a plecak pozostaje niezależnym wyposażeniem,
+- zapis świata został bezpiecznie podniesiony do schematu 3 i zachowuje wilgotność każdej fizycznej sztuki odzieży,
+- automatyzacja zaliczyła 75/75 testów, pełna regresja multiplayer, restart zapisu, końcowy `BuildCookRun` i smoke test gotowego EXE zakończyły się powodzeniem.
+
+Warstwy i ich parametry są już w pełni grywalne oraz widoczne w interfejsie. Zmiana widocznego stroju MetaHumana będzie osobnym etapem oprawy — obecne modele przedmiotów na ziemi są czytelnymi prototypami, a nie finalnym ubiorem postaci.
+
+W v0.8.1 pozostają także systemy z v0.8.0:
 
 - ukończono Etapy 69–70: ceny regionalne wynikają wyłącznie z zakończonych transakcji prawdziwych graczy, a transport działa przez fizyczne kontrakty, ładunek, wóz, karawanę i escrow,
 - manekin prezentacyjny został zastąpiony zoptymalizowanym MetaHumanem klasy Medium; istniejąca postać nadal bezpiecznie obsługuje ruch, sieć, kolizję i sockety narzędzi,
@@ -94,6 +106,8 @@ Wcześniejsze systemy pozostają dostępne:
 - poprawne położenie, ruch i obrót MetaHumana hosta oraz klientów bez skręcania ciała,
 - kolejne etapy wykonania kamiennej siekiery, kilofa, łopaty i młotka z osobnych części,
 - wygląd i wydajność autorskiej kuźni, miechów oraz skrzyni warsztatowej,
+- zakładanie trzech warstw odzieży, ich moknięcie podczas burzy oraz szybsze suszenie przy ognisku,
+- spadek ochrony cieplnej mokrej odzieży i zachowanie wilgotności po zapisie oraz ponownym uruchomieniu,
 - wspólny postęp dostarczania materiałów i pracy na placu budowy,
 - stabilne rozmieszczanie surowców bez nakładania i wystrzeliwania obiektów,
 - oczyszczanie i magazynowanie fizycznej wody,
@@ -129,12 +143,12 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 SHA-256:
 
 ```text
-C04488C377BBBDCCDD27EFFDC5441C8EFB46E32D2E1FCADD5B31C0065CFDD599
+29783DDC42B03B93C871C375FAC4CAF471860C7C0A6D5D87E758A04EC6110781
 ```
 
 ## Status projektu
 
-- **Wersja:** v0.8.0 Pre-Alpha Multiplayer Playtest — Etapy 0–70
+- **Wersja:** v0.8.1 Pre-Alpha Multiplayer Playtest — Etapy 0–71
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
