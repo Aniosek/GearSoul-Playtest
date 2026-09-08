@@ -7,6 +7,7 @@
 - walidacja runtime wykrywa brak rzeczywistego ruchu stóp i bezpiecznie odsłania animowanego Manny'ego zamiast pozostawiać nieruchomą postać,
 - 75/75 testów automatycznych, trzy packaged smoke z łącznie sześcioma klientami oraz dodatkowy smoke z czystej paczki zakończyły się powodzeniem,
 - paczka publiczna zawiera wyłącznie skompilowane pliki i ugotowane, zaszyfrowane dane Unreal Pak/IoStore — bez kodu źródłowego, PDB i edytowalnych źródeł assetów lub MetaHuman.
+- archiwum przepakowano ze ścieżkami zgodnymi z Eksploratorem Windows; po próbnym rozpakowaniu potwierdzono komplet 53 plików.
 
 ## v0.8.1 — 2026-09-07
 

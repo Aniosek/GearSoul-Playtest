@@ -18,6 +18,7 @@ Poprawka nie zmienia autorytetu ruchu, kolizji, ekwipunku ani sieciowej tożsamo
 - dodatkowy smoke test z czystej paczki publikacyjnej: sukces,
 - host i klienci potwierdzili właściwy kierunek postaci oraz animowany ruch miednicy i obu stóp,
 - końcowa paczka jest sprawdzana pod kątem braku PDB, kodu źródłowego, zapisów gry i edytowalnych źródeł MetaHuman.
+- archiwum zostało próbnie rozpakowane mechanizmem Windows; potwierdzono 53 pliki, obecność EXE i pełne 1 826 740 192 bajty zawartości.
 
 ## Zawartość publiczna
 
