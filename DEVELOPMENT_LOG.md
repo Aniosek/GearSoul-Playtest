@@ -26,10 +26,18 @@ Ten plik opisuje rezultaty i decyzje, nie publikuje kodu źródłowego ani prywa
 - Poprawiono kolejność ładowania modułu MetaHuman, a końcowe gotowanie przeszło bez ostrzeżenia o brakującej klasie komponentu.
 - Build, 73/73 testy automatyczne i smoke test czystej paczki Windows zakończyły się sukcesem.
 
-## 2026-09-07
+## 2026-09-07 — v0.8.1
 
 - Ukończono Etap 71: trzy fizyczne warstwy odzieży, moknięcie, suszenie i ochrona przed pogodą.
 - Każde ubranie zachowuje własną wilgotność, trwałość, jakość i tożsamość; mokra odzież izoluje słabiej, ale żadna kombinacja nie daje pełnej odporności na środowisko.
 - Burza moczy warstwy od zewnątrz, pogoda bez opadów je osusza, a rozpalone ognisko przyspiesza proces do sześciu razy bez nowego ciągłego przeliczania każdej klatki.
 - Poprawiono rozdzielenie plecaka od ubrań oraz ustabilizowano pozycję startową drugiego gracza w teście karawany.
 - Build, 75/75 testów, regresja hosta i dwóch klientów, restart zapisu, gotowanie oraz smoke test finalnego EXE zakończyły się sukcesem.
+
+## 2026-09-08 — v0.8.2
+
+- Audyt lokomocji rozdzielił dwie przyczyny ślizgania: nieprawidłowy kierunek warstwy wizualnej oraz brak skutecznego przekazania animowanej pozy do szkieletu MetaHumana.
+- MetaHuman otrzymał właściwy kierunek względem ruchu, a animowany Manny pozostał sterownikiem, z którego zgodne kości są kopiowane w czasie działania gry.
+- Walidacja runtime sprawdza ruch miednicy i obu stóp; jeśli poza nie dociera, gracz zobaczy działającego Manny'ego zamiast nieruchomej postaci.
+- Automatyzacja zaliczyła 75/75 testów. Trzy niezależne packaged smoke objęły po jednym serwerze i dwóch klientów, czyli łącznie sześć instancji klientów; dodatkowy smoke przeszedł z czystej paczki publikacyjnej.
+- Publiczne wydanie zawiera tylko skompilowane pliki wykonywalne i ugotowane, zaszyfrowane kontenery Unreal Pak/IoStore. Kod C++, PDB, edytowalne źródła assetów i źródłowa zawartość MetaHuman pozostają prywatne.

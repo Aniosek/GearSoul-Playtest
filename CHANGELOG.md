@@ -1,5 +1,13 @@
 # GearSoul — changelog
 
+## v0.8.2 — 2026-09-08
+
+- poprawiono kierunek warstwy wizualnej MetaHumana, aby postać była ustawiona przodem do rzeczywistego ruchu,
+- animowana poza Manny'ego jest kopiowana w czasie działania gry do zgodnych kości MetaHumana, dzięki czemu miednica, nogi i stopy reagują na chód, bieg oraz skok,
+- walidacja runtime wykrywa brak rzeczywistego ruchu stóp i bezpiecznie odsłania animowanego Manny'ego zamiast pozostawiać nieruchomą postać,
+- 75/75 testów automatycznych, trzy packaged smoke z łącznie sześcioma klientami oraz dodatkowy smoke z czystej paczki zakończyły się powodzeniem,
+- paczka publiczna zawiera wyłącznie skompilowane pliki i ugotowane, zaszyfrowane dane Unreal Pak/IoStore — bez kodu źródłowego, PDB i edytowalnych źródeł assetów lub MetaHuman.
+
 ## v0.8.1 — 2026-09-07
 
 - Etap 71: trzy fizyczne warstwy odzieży — bazowa, ocieplająca i zewnętrzna,

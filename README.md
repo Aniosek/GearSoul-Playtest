@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.8.1 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.1/GearSoul_v0.8.1_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.8.2 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.2/GearSoul_v0.8.2_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **1,56 GiB**.
+Rozmiar archiwum: około **1,54 GB (1,43 GiB)**.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -22,7 +22,7 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 
 ![MetaHuman na mapie testowej GearSoul v0.8.0](screenshots/v0.8.0/01_metahuman_na_mapie_testowej.png)
 
-Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.1.
+Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.2.
 
 ![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
 
@@ -33,6 +33,14 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 ![Las, rzeka i fizyczne surowce](screenshots/v0.4.0/02_las_rzeka_i_surowce.png)
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
+
+## Co zmieniło się w v0.8.2
+
+- poprawiono obrót warstwy wizualnej MetaHumana, dzięki czemu postać jest skierowana przodem do rzeczywistego kierunku ruchu zamiast poruszać się bokiem,
+- animowany Manny pozostaje niewidocznym sterownikiem ruchu, a zgodne kości jego pozy są kopiowane w czasie działania gry do szkieletu MetaHumana,
+- miednica, nogi i stopy MetaHumana reagują na chód, bieg oraz skok hosta i klientów zamiast pozostawać w nieruchomej pozie,
+- kontrola runtime sprawdza, czy animowana poza faktycznie dotarła do obu stóp; w razie awarii gra pokazuje działającego Manny'ego zamiast nieruchomej postaci,
+- automatyzacja zaliczyła 75/75 testów, trzy niezależne packaged smoke z serwerem i dwoma klientami każdy potwierdziły działanie na łącznie sześciu instancjach klientów, a dodatkowy smoke test przeszedł z czystej paczki publikacyjnej.
 
 ## Co zmieniło się w v0.8.1
 
@@ -103,7 +111,7 @@ Wcześniejsze systemy pozostają dostępne:
 - wydobycie, ścinanie drzew, produkcja, ognisko, rolnictwo i medycyna,
 - synchronizacja dnia, nocy, przetrwania oraz zdarzeń środowiskowych,
 - wygląd i położenie siekiery, kilofa i młotka w prawej dłoni innych graczy,
-- poprawne położenie, ruch i obrót MetaHumana hosta oraz klientów bez skręcania ciała,
+- poprawne położenie, kierunek i animowana lokomocja MetaHumana hosta oraz klientów bez jazdy bokiem, ślizgania i skręcania ciała,
 - kolejne etapy wykonania kamiennej siekiery, kilofa, łopaty i młotka z osobnych części,
 - wygląd i wydajność autorskiej kuźni, miechów oraz skrzyni warsztatowej,
 - zakładanie trzech warstw odzieży, ich moknięcie podczas burzy oraz szybsze suszenie przy ognisku,
@@ -142,17 +150,15 @@ W paczce gry znajduje się `CREATE_BUG_REPORT_PACKAGE.bat`, który zbiera dostę
 
 SHA-256:
 
-```text
-29783DDC42B03B93C871C375FAC4CAF471860C7C0A6D5D87E758A04EC6110781
-```
+Aktualna suma paczki jest publikowana w pliku [`SHA256SUMS.txt`](SHA256SUMS.txt) oraz jako osobny plik przy wydaniu GitHub Release.
 
 ## Status projektu
 
-- **Wersja:** v0.8.1 Pre-Alpha Multiplayer Playtest — Etapy 0–71
+- **Wersja:** v0.8.2 Pre-Alpha Multiplayer Playtest — Etapy 0–71 oraz poprawka lokomocji MetaHumana
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój
 
-Kod źródłowy gry nie jest publikowany w tym repozytorium. Zawartość wydania jest spakowana jako Unreal Pak/IoStore; nie da się jednak zagwarantować absolutnej niemożliwości analizy aplikacji uruchamianej na komputerze testera.
+Do publicznego repozytorium i paczki wydania trafiają wyłącznie dokumentacja, skompilowane pliki wykonywalne oraz ugotowane, zaszyfrowane kontenery Unreal Pak/IoStore. Nie publikujemy kodu źródłowego C++, plików PDB, edytowalnych źródeł assetów ani źródłowej zawartości MetaHuman. Jak w przypadku każdej aplikacji uruchamianej na komputerze testera nie da się jednak zagwarantować absolutnej niemożliwości analizy plików wykonywalnych.
 
 Copyright © 2026 Aniosek — kod i autorska zawartość GearSoul. Publiczna paczka służy do testowania i nie udziela praw do kodu ani autorskich zasobów projektu. Informacje o zasobach CC0 i licencjonowanej zawartości Epic znajdują się wewnątrz paczki.

@@ -6,6 +6,8 @@ Roadmapa opisuje kierunek, a nie gwarantowane daty. Kolejność wewnątrz zakres
 
 Fundament C++ i multiplayer, fizyczne przedmioty, przetrwanie, dzień/noc, zbieranie zasobów, budowanie i rozbiórka, claimy, barter, wozy, drogi, kopalnie, metalurgia, rolnictwo, regiony, karawany, trwały świat, reputacja, medycyna, kataklizmy, narzędzia, kooperacyjna budowa, woda, zwierzęta transportowe, osady, mosty, odnawianie lasu, naprawialne wyposażenie, regionalne magazynowanie żywności, Punkty Wiedzy, działki osad, budynki graczy, informacja o XP, fizyczne zlecenia między graczami, prawdziwe członkostwo i role osady, gospoda, uprawy, gotowanie, konserwacja żywności, właściwy ładunek wozu, ręczne ciągnięcie, wpływ nawierzchni na transport, ceny wynikające z prawdziwych transakcji, fizyczne kontrakty przewozowe między regionami oraz trzy warstwy odzieży z moknięciem, suszeniem i ochroną przed pogodą.
 
+Wydanie v0.8.2 jest poprawką jakościową istniejącego zakresu Etapów 1–71, a nie nowym etapem: porządkuje kierunek postaci i przekazuje animowaną lokomocję do MetaHumana z bezpiecznym fallbackiem, potwierdzonym testami multiplayer gotowej paczki.
+
 ## Etapy 72–75 — IN DEVELOPMENT
 
 - Etap 72: schronienie i wpływ rodzaju budynku na ochronę przed pogodą.

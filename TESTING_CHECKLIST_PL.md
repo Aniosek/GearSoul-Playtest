@@ -1,4 +1,6 @@
-# GearSoul v0.8.1 — pełna checklista testera
+# GearSoul v0.8.2 — pełna checklista testera
+
+Przed przygotowaniem wydania automatyzacja zaliczyła 75/75 testów. Trzy niezależne packaged smoke uruchomiły po jednym serwerze i dwóch klientów (łącznie sześć instancji klientów), a dodatkowy smoke przeszedł z czystej paczki publikacyjnej.
 
 ## Start i multiplayer
 
@@ -7,7 +9,9 @@
 - [ ] Klient w LAN dołącza po IPv4 hosta.
 - [ ] Co najmniej dwóch klientów widzi ruch, interakcje i zmiany świata.
 - [ ] Zamknięcie jednego klienta nie blokuje pozostałych.
-- [ ] MetaHuman hosta i klientów stoi na ziemi, płynnie chodzi i obraca się bez skręcania kończyn.
+- [ ] MetaHuman hosta i klientów stoi na ziemi, jest skierowany przodem do ruchu oraz nie jedzie bokiem ani nie ślizga się w nieruchomej pozie.
+- [ ] Miednica, nogi i obie stopy MetaHumana reagują na chód, bieg i skok hosta oraz klientów.
+- [ ] Jeśli kopiowanie pozy nie zadziała, gra pokazuje animowanego Manny'ego zamiast nieruchomej postaci.
 - [ ] Narzędzia pozostają w prawej dłoni MetaHumana i są widoczne dla innych graczy.
 
 ## Sterowanie i interakcja
@@ -127,3 +131,8 @@
 Zapisz rolę (solo/host/klient), liczbę graczy, kroki, oczekiwany i faktyczny rezultat, powtarzalność oraz załącznik. Logi są zwykle w `%LOCALAPPDATA%\GearlSoul1\Saved\Logs`.
 
 Raport wyślij na **[gearsoul00@gmail.com](mailto:gearsoul00@gmail.com)**. Nie dołączaj publicznego adresu IP ani danych konta.
+
+## Integralność paczki publicznej
+
+- [ ] ZIP zawiera wyłącznie dokumentację, skompilowane pliki wykonywalne oraz ugotowane, zaszyfrowane kontenery Unreal Pak/IoStore.
+- [ ] ZIP nie zawiera kodu C++, plików PDB, katalogów `Source`, `SourceArt`, `Saved` ani edytowalnych źródeł assetów lub MetaHuman.
