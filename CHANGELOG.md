@@ -1,5 +1,14 @@
 # GearSoul — changelog
 
+## v0.8.3 — 2026-09-10
+
+- Etap 72 i nowy dom średniowieczny: dwie izby, sześć widocznych warstw modelu, trzy poziomy LOD i uproszczone kolizje.
+- Osiem etapów dostaw i pracy, ciosanie złączy przed kołkowaniem, gwoździe dopiero na późniejszych etapach; 54 cykle pracy i normalna pojemność plecaka.
+- Fizyczna partia 120 gwoździ z łupki żelaznej, paliwa i czterech cykli młotka po rozgrzaniu.
+- Proceduralny ruch prawej ręki podczas pracy i test przejść przez rzeczywisty model domu.
+- 80/80 testów automatycznych oraz pełna budowa w gotowym EXE. ZIP rozpakowany i zweryfikowany: 57 zgodnych plików.
+- Meble i drzwi są jeszcze statyczne; odtworzenie zbudowanych domów po restarcie świata pozostaje do domknięcia.
+
 ## v0.8.2 — 2026-09-08
 
 - poprawiono kierunek warstwy wizualnej MetaHumana, aby postać była ustawiona przodem do rzeczywistego ruchu,

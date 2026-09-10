@@ -31,4 +31,6 @@ paczki assetów.
 
 ## Co stanowi rozwijany projekt
 
+Dom v0.8.3 jest autorską, modułową geometrią przygotowaną w Blenderze na podstawie wygenerowanej koncepcji. Używa wcześniej pobranych map `rough_wood`, `rock_01` i `rust_coarse_01` z Poly Haven oraz proceduralnego tynku. [Licencja zasobów Poly Haven](https://polyhaven.com/license): CC0. Render przekroju w README jest jawnie podpisany jako render modelu, a nie zrzut rozgrywki.
+
 Wartością GearSoul są autorskie systemy rozgrywki, architektura multiplayer, reguły gospodarki, projekt świata, dokumentacja i własna zawartość. Obecne zasoby CC0 są placeholderami do testów i nie są przedstawiane jako element przyszłej sprzedaży IP. Zawartość Epic zachowuje własną licencję i nie jest przedstawiana jako autorskie IP GearSoul.

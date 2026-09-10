@@ -1,6 +1,20 @@
-# GearSoul v0.8.2 — pełna checklista testera
+# GearSoul v0.8.3 — pełna checklista testera
 
-Przed przygotowaniem wydania automatyzacja zaliczyła 75/75 testów. Trzy niezależne packaged smoke uruchomiły po jednym serwerze i dwóch klientów (łącznie sześć instancji klientów), a dodatkowy smoke przeszedł z czystej paczki publikacyjnej.
+Przed przygotowaniem v0.8.3 automatyzacja zaliczyła 80/80 testów, a pełna budowa domu w gotowym EXE wykonała 8 etapów i 54 cykle pracy. Checklistę poniżej traktuj jako zadania do ręcznego sprawdzenia, nie deklarację bezbłędności gry.
+
+## Dom średniowieczny — priorytet v0.8.3
+
+- [ ] Wejście, przejście między izbami, ominięcie stołu i wyjście nie blokują postaci.
+- [ ] Ściany i podłoga mają kolizję zgodną z widocznym modelem.
+- [ ] Oboje budowniczowie widzą ten sam etap oraz ilość dostarczonych materiałów.
+- [ ] Kłody można przenosić pojedynczo po odłożeniu zbędnych narzędzi do skrzyni.
+- [ ] Zły materiał i narzędzie nie przesuwają postępu ani nie znikają z ekwipunku.
+- [ ] Ciosanie złączy i kołkowanie poprzedzają dach oraz użycie gwoździ.
+- [ ] Cztery cykle młotka po rozgrzaniu łupki pozwalają odebrać 120 gwoździ; nie można odebrać ich dwa razy.
+- [ ] Ukończony dom chroni przed pogodą; narzędzia oraz energia zużywają się przy pracy.
+- [ ] Ręka pracuje i po zakończeniu czynności można normalnie chodzić.
+
+Nie oczekuj jeszcze spania, otwierania drzwi ani odtwarzania nowo zbudowanego domu po restarcie całego świata. Te funkcje nie są ukończone w tej testówce.
 
 ## Start i multiplayer
 

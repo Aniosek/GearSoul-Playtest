@@ -8,9 +8,9 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.8.2 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.2/GearSoul_v0.8.2_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.8.3 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.3/GearSoul_v0.8.3_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **1,54 GB (1,43 GiB)**.
+Rozmiar archiwum: około **1,57 GB (1,46 GiB)**. ZIP zawiera 57 plików; po próbnym rozpakowaniu sprawdzono sumy SHA-256 każdego z nich.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -20,9 +20,19 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 
 ## GearSoul na screenach
 
+![Nowy dom w uruchomionej grze v0.8.3](screenshots/v0.8.3/01_dom_w_grze.png)
+
+![Etapowa budowa i praca narzędziem w grze](screenshots/v0.8.3/02_budowa_w_grze.png)
+
+Powyżej prawdziwe zrzuty z gotowego EXE. Poniżej **render przekroju modelu w Blenderze**, pokazujący układ dwóch izb — nie zrzut rozgrywki.
+
+![Przekrój domu — render modelu Blender](screenshots/v0.8.3/03_przekroj_modelu_blender.png)
+
+### Wcześniejsze ujęcia
+
 ![MetaHuman na mapie testowej GearSoul v0.8.0](screenshots/v0.8.0/01_metahuman_na_mapie_testowej.png)
 
-Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.2.
+Powyższy screen pochodzi z prawdziwego uruchomienia mapy w UE 5.8. Kolejne pokazują wcześniejsze systemy, które nadal są obecne w v0.8.3.
 
 ![Kompaktowa mapa bez przenikalnego pierścienia wzgórz](screenshots/v0.4.1/01_kompaktowa_mapa_bez_przenikalnych_wzgorz.png)
 
@@ -33,6 +43,21 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 ![Las, rzeka i fizyczne surowce](screenshots/v0.4.0/02_las_rzeka_i_surowce.png)
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
+
+## Co zmieniło się w v0.8.3
+
+- dom z kamienną podmurówką, ciosanym szkieletem, ścianami glinianymi i gontem; wnętrze ma izbę ze stołem i ławami oraz komorę z łóżkiem i skrzynią,
+- osiem etapów pracy: podmurówka → ciosanie złączy → szkielet i kołki → ściany → łupanie gontów → dach → stolarka → wyposażenie,
+- budowa zużywa 6 kamieni, 14 kłód, 8 porcji gliny i 18 gwoździ oraz wymaga 54 cykli właściwymi narzędziami; materiały przynosi się pojedynczo,
+- przy placu jest wspólna skrzynia z ograniczonym zapasem testowym oraz stanowisko do kucia gwoździ,
+- dom osłania od pogody; zużycie budynku osłabia ochronę, a kapsuła gracza przechodzi przez drzwi i między izbami,
+- 80/80 testów automatycznych, regresja multiplayer oraz pełna budowa przez rzeczywiste interakcje w gotowym EXE zakończyły się powodzeniem; dodatkowo serwer i dwóch klientów uruchomionych z rozpakowanego ZIP-a przeszły test mapy i ruchu MetaHumana.
+
+**Co testować teraz:** wejście i przejście przez dom, wspólną budowę, poprawne odejmowanie materiałów, odmowę użycia złego narzędzia, kucie gwoździ i zużycie energii. Szczegóły: [checklista](TESTING_CHECKLIST_PL.md) i [instrukcja testówki](README_PL.md).
+
+**Ograniczenia:** meble i otwarte drzwi są statyczne; animacja ręki jest proceduralnym prototypem, nie osobnym przybijaniem każdego gwoździa. Odtwarzanie domów zbudowanych w sesji po pełnym restarcie świata nie jest jeszcze domknięte. To nie jest trwały serwer produkcyjny. Nie wykonano nowego profilu 15 graczy ani testu WAN dla tej wersji.
+
+Następna kolejność oprawy: kuźnia → warsztat → magazyn → gospoda → wspólne meble i części budowlane. Na początek mały, spójny zestaw osady, nie dziesiątki osobnych domów.
 
 ## Co zmieniło się w v0.8.2
 
@@ -154,7 +179,7 @@ Aktualna suma paczki jest publikowana w pliku [`SHA256SUMS.txt`](SHA256SUMS.txt)
 
 ## Status projektu
 
-- **Wersja:** v0.8.2 Pre-Alpha Multiplayer Playtest — Etapy 0–71 oraz poprawka lokomocji MetaHumana
+- **Wersja:** v0.8.3 Pre-Alpha Multiplayer Playtest — Etapy 0–72 oraz etapowy dom średniowieczny
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój

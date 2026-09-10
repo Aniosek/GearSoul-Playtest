@@ -1,0 +1,54 @@
+GearSoul v0.8.3 — informacje o zasobach zewnętrznych
+
+Zasoby w punktach 1–4 i 6 używają CC0 1.0 Universal. Ta licencja pozwala
+na użycie komercyjne, modyfikację oraz redystrybucję. MetaHuman (punkt 5)
+ma osobną licencję Epic — nie jest CC0. GearSoul nie przypisuje sobie
+autorstwa tych zewnętrznych zasobów.
+
+1. Textured LowPoly Trees
+   Autor: Quaternius
+   Źródło: https://quaternius.itch.io/textured-lowpoly-trees
+   Licencja: CC0 1.0 Universal
+   Autor źródła deklaruje, że paczka nie używa generatywnej AI.
+
+2. Leafy Grass
+   Autor: Charlotte Baglioni
+   Źródło: https://polyhaven.com/a/leafy_grass
+   Licencja: CC0 1.0 Universal
+   Credit: Powered by Poly Haven.
+
+3. Survival Tools
+   Autor: Gar5546x
+   Źródło: https://opengameart.org/content/survival-tools
+   Licencja: CC0 1.0 Universal
+
+4. Props Pack 1 — wyłącznie geometria bread.obj i sausages_4.obj
+   Autor: DREAM_SEARCH_REPEAT
+   Źródło: https://opengameart.org/content/props-pack-1
+   Licencja: CC0 1.0 Universal
+   Materiały fotograficzne z oryginalnej paczki nie są wykorzystywane.
+
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+5. MetaHuman
+   Autor i właściciel technologii/zawartości: Epic Games
+   Źródło: MetaHuman Creator Core Data dostarczone z Unreal Engine 5.8
+   Licencja: Epic Content License Agreement — UE-Only Content
+   Zastosowanie: zoptymalizowana, ugotowana postać w wykonywalnym buildzie GearSoul.
+   Edytowalne pliki źródłowe MetaHumana nie są publikowane w repozytorium ani
+   redystrybuowane jako osobna paczka assetów.
+
+   Epic Content License Agreement:
+   https://www.unrealengine.com/eula/content
+
+6. Tekstury Poly Haven: rough_wood, rock_01, rust_coarse_01
+   Źródła: https://polyhaven.com/a/rough_wood
+           https://polyhaven.com/a/rock_01
+           https://polyhaven.com/a/rust_coarse_01
+   Licencja zasobów: CC0 1.0 Universal — https://polyhaven.com/license
+   Zastosowanie: powierzchnie autorskich modeli, w tym domu v0.8.3.
+   Credit: Powered by Poly Haven.
+
+Autorskie modele domu, narzędzi, etapów ich wykonania, kuźni, miechów i skrzyni
+warsztatowej zostały przygotowane dla GearSoul i nie pochodzą z zewnętrznej
+paczki assetów.
