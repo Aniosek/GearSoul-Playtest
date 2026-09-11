@@ -1,10 +1,10 @@
-# GearSoul v0.8.3 — Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.5 — Pre-Alpha Multiplayer Playtest
 
 To jest wczesna, techniczna wersja testowa GearSoul. Nie jest jeszcze reprezentacją końcowej grafiki, balansu ani zawartości. Celem wydania jest sprawdzenie fizycznego świata, interakcji między prawdziwymi graczami i stabilności multiplayera.
 
 ## Pobranie i uruchomienie
 
-1. Pobierz `GearSoul_v0.8.3_PreAlpha_Multiplayer_Windows.zip` z sekcji **Releases**.
+1. Pobierz `GearSoul_v0.9.5_PreAlpha_Multiplayer_Windows.zip` z sekcji **Releases**.
 2. Rozpakuj całe archiwum. Nie uruchamiaj gry wewnątrz pliku ZIP.
 3. Windows może pokazać ostrzeżenie dla niepodpisanej wersji pre-alpha. Paczka nie ma instalatora i nie zmienia systemu.
 4. Uruchom jeden z plików:
@@ -14,7 +14,27 @@ To jest wczesna, techniczna wersja testowa GearSoul. Nie jest jeszcze reprezenta
 
 W sieci lokalnej wpisz adres IPv4 komputera hosta. Przy teście przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777** na swoim routerze. GearSoul używa na razie listen-servera — komputer hosta jest również jednym z graczy.
 
-## Nowe w v0.8.3: dom budowany etapami
+## Aktualne wydanie v0.9.5 — co testować
+
+1. **Ścinanie:** weź sprawną siekierę, podejdź blisko pnia (do 1,35 m od jego środka), stań przodem i użyj interakcji E. Obie dłonie powinny trzymać trzonek; ostrze trafia w pień, krótko wyhamowuje i wraca. Obrażenia są naliczane przy trafieniu, nie przy rozpoczęciu zamachu. Sprawdź odejście, schowanie narzędzia i szybkie powtarzanie E — nie powinno być dodatkowego trafienia ani blokady ruchu.
+2. **Narzędzia i warsztat:** porównaj kamienne, miedziane, żelazne i stalowe siekiery, kilofy oraz młotki. Sprawdź odrębne głowice, trzonki, wiązania/kliny, etap montażu, zużycie składników i trwałość. Większa trwałość materiału nie oznacza braku zużycia.
+3. **Księga testowa:** przywołuj potrzebne rzeczy na oznaczonym polu zamiast szukać wszystkich próbek porozrzucanych po mapie. Udźwig i objętość nadal obowiązują. To pomoc testowa, nie docelowa gospodarka gry.
+4. **Osada:** sprawdź wnętrza i schronienie w domu, kuźni, warsztacie, spichlerzu i gospodzie. Budowa wymaga wskazanych materiałów, kwalifikacji i narzędzia. Komunikat rozbiórki nie powinien zastępować zwykłego opisu, gdy nie trzymasz młotka.
+5. **Transport i multiplayer:** zaprzęgnij własne zwierzę do wozu, rozpocznij/zatrzymaj prowadzenie kilka razy, przełóż ładunek. Drugi tester powinien widzieć ten sam stan. Sprawdź barter, warsztat i ścinanie jednocześnie z drugą osobą; szukaj utraty lub powielania przedmiotów.
+
+Przed publikacją projektu: 112/112 testów automatycznych, kontrola chwytu w grze z trzech kamer przy dwóch dystansach oraz serwer z dwoma klientami przy 100 ms opóźnienia i 3% straty pakietów. Wyniki testów gotowej paczki podajemy osobno w opisie wydania GitHub.
+
+### Ograniczenia i bezpieczeństwo testów
+
+- To nadal pre-alpha, a numer 0.9.5 nie oznacza 95% ukończenia całej gry.
+- Pełna choreografia jest poprawiana stopniowo; animacja ścinania nie oznacza gotowych pełnych animacji kopania, kucia i podnoszenia. Część wyposażenia ma nadal funkcję dekoracyjną.
+- Dostarczone launchery uruchamiają świeży scenariusz **bez trwałego zapisu**. Nie kasuj swoich starszych zapisów. W projekcie rozwijane są osobne mechanizmy odtwarzania świata, ale ta paczka nie jest trwałym serwerem produkcyjnym.
+- Nie potwierdzono profilu wydajności 15 renderujących graczy ani testu połączeń przez Internet dla tego wydania. Zacznij od dwóch komputerów i małej grupy.
+- Błędy wysyłaj na **gearsoul00@gmail.com** lub GitHub Issues. Podaj wersję 0.9.5, czy byłeś hostem/klientem, kroki odtworzenia i screenshot. `CREATE_BUG_REPORT_PACKAGE.bat` zbiera diagnostykę; przejrzyj archiwum przed wysłaniem — logi mogą zawierać adresy IP i nazwy lokalnych katalogów.
+
+## Historia wydań (poniższe opisy dotyczą wskazanych starszych wersji)
+
+### v0.8.3: dom budowany etapami
 
 - Dom z kamiennym fundamentem, drewnianym szkieletem, glinianymi ścianami i dachem krytym gontem. W środku izba ze stołem i ławami oraz komora z łóżkiem i skrzynią.
 - Osiem etapów: fundament → ciosanie złączy → szkielet i kołkowanie → ściany → łupanie gontów → mocowanie dachu → stolarka → wyposażenie.

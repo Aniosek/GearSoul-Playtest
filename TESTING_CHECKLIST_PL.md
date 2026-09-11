@@ -1,4 +1,12 @@
-# GearSoul v0.8.3 — pełna checklista testera
+# GearSoul — checklista testera
+
+## Aktualne v0.9.5
+
+Aktualne zadania oraz ograniczenia: [instrukcja v0.9.5](README_PL.md#aktualne-wydanie-v095--co-testować). Priorytet: ścinanie oburącz, anulowanie zamachu, narzędzia i montaż, multiplayer, zaprzęg oraz schronienie. Wyniki automatyzacji i kontroli ZIP-a: [opis wydania](RELEASE_v0.9.5.md).
+
+Poniżej zachowano historyczną checklistę v0.8.3. Jej dawne ograniczenia i liczby nie opisują aktualnej wersji.
+
+## Archiwum v0.8.3
 
 Przed przygotowaniem v0.8.3 automatyzacja zaliczyła 80/80 testów, a pełna budowa domu w gotowym EXE wykonała 8 etapów i 54 cykle pracy. Checklistę poniżej traktuj jako zadania do ręcznego sprawdzenia, nie deklarację bezbłędności gry.
 

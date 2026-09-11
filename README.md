@@ -8,9 +8,11 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.8.3 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.8.3/GearSoul_v0.8.3_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.9.5 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.5/GearSoul_v0.9.5_PreAlpha_Multiplayer_Windows.zip)
 
-Rozmiar archiwum: około **1,57 GB (1,46 GiB)**. ZIP zawiera 57 plików; po próbnym rozpakowaniu sprawdzono sumy SHA-256 każdego z nich.
+Gotowa gra jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.5) · [Sumy SHA-256](SHA256SUMS.txt).
+
+Rozmiar ZIP-a: **1,61 GB** (1 612 846 629 bajtów). Archiwum zostało rozpakowane kontrolnie: wszystkie 50 plików przeszło porównanie sum kontrolnych; uruchomiono też test z rozpakowanego EXE.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -18,7 +20,22 @@ Rozmiar archiwum: około **1,57 GB (1,46 GiB)**. ZIP zawiera 57 plików; po pró
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## GearSoul na screenach
+## Aktualne v0.9.5 — ścinanie oburącz i aktualna mapa testowa
+
+- Poprawiony chwyt siekiery obiema dłońmi przez IK, praca barków, łokci, tułowia, bioder i kolan. Ostrze trafia w powierzchnię pnia i na chwilę wyhamowuje. Ruch można przerwać; nie powinien blokować sterowania.
+- Kamienne, miedziane, żelazne i stalowe narzędzia mają oddzielne elementy wykonania i różną trwałość. Testuj montaż, zużycie oraz warsztat z drugim graczem.
+- Księga testowa przywołuje potrzebne przedmioty na oznaczonym polu; udźwig nadal obowiązuje. Sprawdź osadę, schronienie w budynkach, wóz, zaprzęg i barter.
+- To przyrosty projektu do etapu 95, **nie deklaracja 95% ukończenia gry**. Nadal powstają kolejne animacje, oprawa oraz mechaniki.
+
+**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.5](README_PL.md#aktualne-wydanie-v095--co-testować). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów ani połączeń WAN w tej wersji.
+
+**Błędy:** [GitHub Issues](https://github.com/Aniosek/GearSoul-Playtest/issues) lub **gearsoul00@gmail.com**. Podaj wersję, host/klient, kroki i screen. Dołączona pomoc `CREATE_BUG_REPORT_PACKAGE.bat` zbiera logi — przejrzyj je przed udostępnieniem.
+
+![Ścinanie oburącz w GearSoul](screenshots/v0.9.5/01_scinanie.png)
+
+[Podgląd animacji z gry (GIF)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.5/Scinanie_Widok1.gif) · [Szczegóły i wyniki testów wydania](RELEASE_v0.9.5.md).
+
+## Archiwalne screeny i historia wcześniejszych wydań
 
 ![Nowy dom w uruchomionej grze v0.8.3](screenshots/v0.8.3/01_dom_w_grze.png)
 
@@ -44,7 +61,7 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 
 ![Przeskalowany polski ekwipunek](screenshots/v0.4.0/03_ekwipunek.png)
 
-## Co zmieniło się w v0.8.3
+## Historia: co zmieniło się w v0.8.3
 
 - dom z kamienną podmurówką, ciosanym szkieletem, ścianami glinianymi i gontem; wnętrze ma izbę ze stołem i ławami oraz komorę z łóżkiem i skrzynią,
 - osiem etapów pracy: podmurówka → ciosanie złączy → szkielet i kołki → ściany → łupanie gontów → dach → stolarka → wyposażenie,
@@ -53,9 +70,9 @@ Pozostałe screeny przedstawiają systemy obecne również w v0.4.1:
 - dom osłania od pogody; zużycie budynku osłabia ochronę, a kapsuła gracza przechodzi przez drzwi i między izbami,
 - 80/80 testów automatycznych, regresja multiplayer oraz pełna budowa przez rzeczywiste interakcje w gotowym EXE zakończyły się powodzeniem; dodatkowo serwer i dwóch klientów uruchomionych z rozpakowanego ZIP-a przeszły test mapy i ruchu MetaHumana.
 
-**Co testować teraz:** wejście i przejście przez dom, wspólną budowę, poprawne odejmowanie materiałów, odmowę użycia złego narzędzia, kucie gwoździ i zużycie energii. Szczegóły: [checklista](TESTING_CHECKLIST_PL.md) i [instrukcja testówki](README_PL.md).
+**Zakres testów v0.8.3:** wejście i przejście przez dom, wspólna budowa, poprawne odejmowanie materiałów, odmowa użycia złego narzędzia, kucie gwoździ i zużycie energii. Aktualne instrukcje: [README_PL.md](README_PL.md).
 
-**Ograniczenia:** meble i otwarte drzwi są statyczne; animacja ręki jest proceduralnym prototypem, nie osobnym przybijaniem każdego gwoździa. Odtwarzanie domów zbudowanych w sesji po pełnym restarcie świata nie jest jeszcze domknięte. To nie jest trwały serwer produkcyjny. Nie wykonano nowego profilu 15 graczy ani testu WAN dla tej wersji.
+**Ograniczenia historycznego v0.8.3:** meble i otwarte drzwi były statyczne; animacja ręki była proceduralnym prototypem. Odtwarzanie nowych domów po restarcie nie było domknięte. Aktualne ograniczenia opisano w instrukcji v0.9.5.
 
 Następna kolejność oprawy: kuźnia → warsztat → magazyn → gospoda → wspólne meble i części budowlane. Na początek mały, spójny zestaw osady, nie dziesiątki osobnych domów.
 

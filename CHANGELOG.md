@@ -1,5 +1,13 @@
 # GearSoul — changelog
 
+## v0.9.5 — 2026-09-11
+
+- Aktualny przyrost projektu do lokalnego etapu 95, nie 95% ukończenia całej gry.
+- Poprawiona animacja ścinania oburącz: IK, kierunek barków, praca bioder/kolan, kontakt ostrza z pniem i krótkie wyhamowanie. Zachowana autoryzacja trafienia przez serwer i anulowanie pracy.
+- Aktualne narzędzia kamienne, miedziane, żelazne i stalowe, osobne części, montaż i trwałość; nowe przedmioty użytkowe i wyposażenie osady.
+- Księga testowa, fizyczny wóz i zaprzęg, schronienie we wnętrzach oraz kolejne poprawki odtwarzania stanu świata. Launchery wydania nadal domyślnie wyłączają trwały zapis.
+- 112/112 testów automatycznych projektu. Szczegółowe wyniki kontroli paczki oraz instrukcja: [opis v0.9.5](RELEASE_v0.9.5.md).
+
 ## v0.8.3 — 2026-09-10
 
 - Etap 72 i nowy dom średniowieczny: dwie izby, sześć widocznych warstw modelu, trzy poziomy LOD i uproszczone kolizje.
