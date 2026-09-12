@@ -1,5 +1,13 @@
 # GearSoul — changelog
 
+## v0.9.9 — 2026-09-13
+
+- Trzy regiony: Alderen, Sairen, Norvak; Alderen jako mapa domyślna, osobny launcher wyboru regionu i trybu gry.
+- F10: wybór mikrofonu i wyjścia, lokalny odsłuch do 15 s, miernik, głośność głosu i dźwięk w tle dla dwóch okien. Brak automatycznego nagrywania lub nadawania.
+- Fizyczne dostawy na budowę, noszenie ciężkich materiałów, profil i osobne pule wiedzy/rozwoju.
+- Prototypowe drążenie zamkniętej skały z podporami budowanymi z przynoszonych kłód. Bez ukończonej podpory nie ma dalszego postępu.
+- 126/126 testów projektu; trzy regiony i głos sprawdzone również w wykonywalnej paczce. Szczegóły i jawne ograniczenia w [opisie 0.9.9](RELEASE_v0.9.9.md). To nie gotowe 1.0.0.
+
 ## v0.9.5 — 2026-09-11
 
 - Aktualny przyrost projektu do lokalnego etapu 95, nie 95% ukończenia całej gry.

@@ -8,26 +8,46 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.9.5 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.5/GearSoul_v0.9.5_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.9.9 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.9/GearSoul_v0.9.9_PreAlpha_Multiplayer_Windows.zip)
 
-Gotowa gra jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.5) · [Sumy SHA-256](SHA256SUMS.txt).
+Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.9) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
 
-Rozmiar ZIP-a: **1,61 GB** (1 612 846 629 bajtów). Archiwum zostało rozpakowane kontrolnie: wszystkie 50 plików przeszło porównanie sum kontrolnych; uruchomiono też test z rozpakowanego EXE.
+ZIP: **1,82 GB**, 54 pliki, kontrolnie rozpakowany i porównany plik po pliku. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.9.md).
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
-3. Uruchom `START_GearSoul_Solo.bat`, `START_GearSoul_Host.bat` albo `START_GearSoul_Join.bat`.
+3. Uruchom `START_GearSoul_Regiony.bat`, aby wybrać **Alderen, Sairen lub Norvak** i tryb solo/host. Zwykłe EXE oraz launcher Solo otwierają Alderen. Pozostali gracze używają `START_GearSoul_Join.bat`.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Aktualne v0.9.5 — ścinanie oburącz i aktualna mapa testowa
+## Aktualne v0.9.9 — trzy regiony, budowanie i rozmowa
+
+- Trzy mapy regionalne z terenem, osadami i fauną. W każdym regionie 20 domów w 5 wariantach oraz punkty startowego wydobycia. To oddzielne mapy; transfer pomiędzy niezależnymi serwerami nie jest jeszcze gotowy.
+- **F10: wybór mikrofonu i słuchawek**, miernik sygnału, odsłuch lokalny do 15 s, test wyjścia i dźwięk w nieaktywnym oknie. Rozmowa jest dobrowolna, na 25 m, przy przytrzymaniu V. Odsłuch mikrofonu nie nagrywa ani nie wysyła głosu innym.
+- Dostawy materiałów na plac budowy, etapy pracy, noszenie ciężkich kłód, profil i oddzielne pule do 50 Punktów Wiedzy / 40 Punktów Rozwoju.
+- Kopalnia zaczyna się zamkniętą skałą: wykucie odcinka → dostawa 3 kłód → obróbka siekierą → mocowanie młotkiem. Bez ukończonej podpory nie drążysz dalej. Na razie 6 odcinków / 12 m; nie ma swobodnych rozgałęzień ani prawdziwych zawałów. Oświetlenie kopalni i regionów nadal wymaga dopracowania.
+- Stara plansza jest tylko dodatkiem `TEST_Mechanik_Stara_Plansza.bat`, nie mapą domyślną. Księga przywołań pozostaje pomocą testową; udźwig nadal obowiązuje.
+
+**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.9](README_PL.md). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów, rozmowy na wszystkich fizycznych mikrofonach ani połączeń WAN w tej wersji.
+
+![Ustawienia rozmowy w regionie Alderen — zrzut z gotowej paczki](screenshots/v0.9.9/01_dzwiek_Alderen.png)
+
+![Alderen — zrzut z gotowej paczki](screenshots/v0.9.9/02_Alderen.png)
+
+![Sairen — zrzut z gotowej paczki](screenshots/v0.9.9/03_Sairen.png)
+
+![Norvak — zrzut z gotowej paczki](screenshots/v0.9.9/04_Norvak.png)
+
+[Szczegóły i wyniki testów 0.9.9](RELEASE_v0.9.9.md).
+
+## Poprzednie v0.9.5 — ścinanie oburącz i mapa kontrolna
 
 - Poprawiony chwyt siekiery obiema dłońmi przez IK, praca barków, łokci, tułowia, bioder i kolan. Ostrze trafia w powierzchnię pnia i na chwilę wyhamowuje. Ruch można przerwać; nie powinien blokować sterowania.
 - Kamienne, miedziane, żelazne i stalowe narzędzia mają oddzielne elementy wykonania i różną trwałość. Testuj montaż, zużycie oraz warsztat z drugim graczem.
 - Księga testowa przywołuje potrzebne przedmioty na oznaczonym polu; udźwig nadal obowiązuje. Sprawdź osadę, schronienie w budynkach, wóz, zaprzęg i barter.
 - To przyrosty projektu do etapu 95, **nie deklaracja 95% ukończenia gry**. Nadal powstają kolejne animacje, oprawa oraz mechaniki.
 
-**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.5](README_PL.md#aktualne-wydanie-v095--co-testować). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów ani połączeń WAN w tej wersji.
+Poniższy screen i animacja pochodzą z historycznego 0.9.5. Aktualna instrukcja dotyczy 0.9.9.
 
 **Błędy:** [GitHub Issues](https://github.com/Aniosek/GearSoul-Playtest/issues) lub **gearsoul00@gmail.com**. Podaj wersję, host/klient, kroki i screen. Dołączona pomoc `CREATE_BUG_REPORT_PACKAGE.bat` zbiera logi — przejrzyj je przed udostępnieniem.
 

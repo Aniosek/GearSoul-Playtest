@@ -1,4 +1,4 @@
-GearSoul v0.8.3 — informacje o zasobach zewnętrznych
+GearSoul v0.9.9 — informacje o zasobach zewnętrznych
 
 Zasoby w punktach 1–4 i 6 używają CC0 1.0 Universal. Ta licencja pozwala
 na użycie komercyjne, modyfikację oraz redystrybucję. MetaHuman (punkt 5)
@@ -52,3 +52,9 @@ CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
 Autorskie modele domu, narzędzi, etapów ich wykonania, kuźni, miechów i skrzyni
 warsztatowej zostały przygotowane dla GearSoul i nie pochodzą z zewnętrznej
 paczki assetów.
+
+Wydanie 0.9.9 zawiera również regionalny teren, warianty budynków, faunę oraz
+prototypowe segmenty kopalni przygotowane dla projektu. W części procesu
+projektowania i tworzenia oprawy wykorzystano narzędzia generatywne.
+Publiczna paczka jest wykonywalnym buildem gry, nie paczką źródłowych assetów
+ani pakietem do ich osobnej redystrybucji.

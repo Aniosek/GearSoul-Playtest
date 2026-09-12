@@ -1,4 +1,41 @@
-# GearSoul v0.9.5 — Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.9 — Pre-Alpha Multiplayer Playtest
+
+To wydanie testowe, **nie gotowa gra 1.0.0**. Numer nie oznacza procentu ukończenia. Poniżej są instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
+
+## Uruchomienie 0.9.9
+
+Pobierz archiwum Windows z [wydania 0.9.9](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.9) i rozpakuj je w całości. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny.
+
+- `GearlSoul1.exe` lub `START_GearSoul_Solo.bat` — region **Alderen**.
+- `START_GearSoul_Regiony.bat` — Alderen, Sairen albo Norvak; wybierz solo lub hosta.
+- `START_GearSoul_Host.bat` — host Alderen; `START_GearSoul_Join.bat` — adres IP hosta, niezależnie od wybranego regionu.
+- `TEST_Mechanik_Stara_Plansza.bat` — dodatkowa, stara plansza kontrolna; nie jest regionem ani domyślną mapą.
+- Dla Internetu nadal potrzebne jest połączenie z hostem na UDP 7777; automatyczne zaproszenia/NAT traversal nie są gotowe.
+
+Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapisów. Regiony to oddzielne mapy, nie działający transfer pomiędzy niezależnymi serwerami.
+
+## Mikrofon, słuchawki i dwa okna na jednym komputerze
+
+**F10** otwiera ustawienia dźwięku; przycisk jest też w plecaku. Wybierz mikrofon i wyjście słuchawkowe. „Test słuchawek” odtwarza krótki ton. „Test mikrofonu — 15 s” pokazuje poziom sygnału i daje lokalny odsłuch. Używaj słuchawek, żeby uniknąć sprzężenia. Test nie zapisuje nagrania i nie wysyła go innym; kończy się po 15 sekundach, zamknięciu panelu lub utracie aktywności okna.
+
+Do rozmowy obaj gracze muszą włączyć głos, zamknąć menu i zbliżyć postacie na mniej niż 25 m. Mówiący przytrzymuje **V**. W drugim oknie włącz „Dźwięk także w nieaktywnym oknie” (domyślnie włączone). Nie przełączaj aktywnego okna podczas nadawania: przechwytywanie zatrzymuje się dla prywatności. Zwykła rozmowa nie odtwarza własnego głosu. Włączenie czatu jest świadomą decyzją w każdej sesji; sam wybór urządzenia nie uruchamia mikrofonu.
+
+## Co sprawdzić w tej wersji
+
+1. Głos host ↔ klient, poprawne urządzenia, wyciszenie gracza, zasięg, odsłuch lokalny i dźwięk w tle.
+2. Trzy regiony: grunt, wejścia i schronienie w budynkach, ruch zwierząt, interaktywne zasoby przy osadzie. Dalszy las jest w dużej części dekoracyjny.
+3. Kopalnia zaczyna się od zamkniętej skały. Po wykuciu odcinka dostarcz pojedynczo 3 kłody, obrób połączenia siekierą i zamocuj młotkiem. Dopiero ukończona podpora otwiera dalsze drążenie. Prototyp ma 6 odcinków / 12 m; brak swobodnych rozgałęzień, prawdziwych zawałów i docelowego oświetlenia pod ziemią.
+4. Budowanie od podstaw: dostawy pojedynczych materiałów, noszenie ciężkich kłód, kolejne etapy pracy, meble oraz studnia. Nie ma automatycznej skrzyni dostaw. Nie wszystkie meble mają jeszcze dodatkowe funkcje użytkowe.
+5. Profil **P**: osobne profesje i praktyka, pula do 50 Punktów Wiedzy i osobno do 40 Punktów Rozwoju. Limity nie oznaczają przyznania pełnej puli na starcie.
+6. Barter, budowa i wydobycie we dwójkę: brak powielania surowców, spójny stan i odzyskanie sterowania po zamknięciu interakcji.
+
+Nie potwierdzamy wydajności 15 renderujących klientów ani odsłuchu mowy na każdej konfiguracji sprzętu. Zacznij od dwóch komputerów. Szczegółowe wyniki gotowej paczki są w opisie wydania.
+
+**Błędy:** `CREATE_BUG_REPORT_PACKAGE.bat`, potem przejrzyj ZIP przed wysłaniem (logi mogą zawierać IP, nazwy katalogów i zapis świata). Wyślij na **gearsoul00@gmail.com** albo do GitHub Issues. Podaj 0.9.9, mapę, host/klient, urządzenia audio i kroki odtworzenia.
+
+---
+
+## Archiwum: v0.9.5 — Pre-Alpha Multiplayer Playtest
 
 To jest wczesna, techniczna wersja testowa GearSoul. Nie jest jeszcze reprezentacją końcowej grafiki, balansu ani zawartości. Celem wydania jest sprawdzenie fizycznego świata, interakcji między prawdziwymi graczami i stabilności multiplayera.
 
