@@ -1,5 +1,14 @@
 # GearSoul — changelog
 
+## v0.9.10 — 2026-09-13
+
+- Kudłate zwierzęta z animowanymi łapami i sierścią, po trzy w każdym regionie.
+- Wędka z długą linką, łowiska, przynęta, surowy i pieczony pstrąg, receptury i XP łowienia.
+- Pochodnia z paliwem, płomieniem i światłem z cieniami; księżyc i nocne oświetlenie istniejących domów.
+- Obraz Leszka w domu w Alderen.
+- Poprawki sztywnych łap, wiązania sierści, podwójnego spławika, orientacji płomienia i zdjęcia oraz obsługi anulowania/pełnego plecaka przy łowieniu.
+- 127/127 testów projektu; pełny zakres kontroli paczki i ograniczenia: [opis 0.9.10](RELEASE_v0.9.10.md). To nadal pre-alpha.
+
 ## v0.9.9 — 2026-09-13
 
 - Trzy regiony: Alderen, Sairen, Norvak; Alderen jako mapa domyślna, osobny launcher wyboru regionu i trybu gry.

@@ -1,10 +1,10 @@
-# GearSoul v0.9.9 — Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.10 — Pre-Alpha Multiplayer Playtest
 
 To wydanie testowe, **nie gotowa gra 1.0.0**. Numer nie oznacza procentu ukończenia. Poniżej są instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
 
-## Uruchomienie 0.9.9
+## Uruchomienie 0.9.10
 
-Pobierz archiwum Windows z [wydania 0.9.9](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.9) i rozpakuj je w całości. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny.
+Pobierz archiwum Windows z [wydania 0.9.10](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci muszą używać tej samej wersji; nie mieszaj plików 0.9.9 i 0.9.10.
 
 - `GearlSoul1.exe` lub `START_GearSoul_Solo.bat` — region **Alderen**.
 - `START_GearSoul_Regiony.bat` — Alderen, Sairen albo Norvak; wybierz solo lub hosta.
@@ -13,6 +13,20 @@ Pobierz archiwum Windows z [wydania 0.9.9](https://github.com/Aniosek/GearSoul-P
 - Dla Internetu nadal potrzebne jest połączenie z hostem na UDP 7777; automatyczne zaproszenia/NAT traversal nie są gotowe.
 
 Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapisów. Regiony to oddzielne mapy, nie działający transfer pomiędzy niezależnymi serwerami.
+
+## Nowości 0.9.10 — zwierzęta, łowienie i światło
+
+- Po trzy nowe kudłate zwierzęta i jednym łowisku z paleniskiem w każdym regionie. To fikcyjne zwierzę z psim pyskiem i wydłużonym ciałem, nie pies o imieniu „Kuna”.
+- Wędka ma dłuższą linkę prowadzącą od końca kija do spławika na wodzie. Przy łowisku weź wędkę do dłoni, miej ciasto jako przynętę i naciśnij **E**. Po komunikacie o braniu naciśnij **E** ponownie. Wczesne E anuluje, tak samo odejście lub schowanie wędki.
+- Branie następuje po 5–11 sekundach; okno wyciągnięcia trwa 6 sekund. Połów daje jednego pstrąga, 10 XP łowienia i zużywa 1 punkt trwałości wędki. Pełny plecak powinien odmówić rozpoczęcia bez zabrania przynęty.
+- Surowy pstrąg nie jest bezpośrednio jadalny. Przy palenisku przygotuj surową rybę, paliwo i sprawny świder ogniowy; pieczenie trwa 25 sekund.
+- **L** zapala lub gasi pochodnię trzymaną w dłoni. Do zapalenia potrzebny jest sprawny świder ogniowy. Pełna pochodnia wystarcza na 600 sekund; schowanie, pływanie lub śmierć ją gaszą.
+- Pochodnia oświetla postać i otoczenie, z cieniami. Księżyc daje światło nocne. Istniejące domy na mapach mają ciepłe światła; w jednym domu w Alderen jest obraz Leszka.
+- Przedmioty i składniki znajdziesz w księdze testowej; dodano również receptury wędki i pochodni. Udźwig nadal obowiązuje.
+
+**Co poprawiono:** ruch łap zwierząt zapisanych na mapie, dopasowanie sierści do animowanej skóry, podwójny spławik podczas łowienia, orientację płomienia i zdjęcia w domu. Światła domowe są powiązane z rozbiórką domu. Łowienie jest kontrolowane przez serwer i nie blokuje ruchu przy anulowaniu.
+
+**Granice tej wersji:** nie ma nowej pełnej animacji rzutu wędką, dźwięków pochodni ani obrażeń od ognia. Księżyc jest prostym dyskiem bez tekstury kraterów. Światła rozmieszczono w istniejących domach mapy — nie są jeszcze automatycznym wyposażeniem każdego nowego domu gracza. Sierść wymaga dalszego profilowania GPU; nie potwierdzono płynności 15 renderujących klientów. Testuj najpierw na dwóch komputerach.
 
 ## Mikrofon, słuchawki i dwa okna na jednym komputerze
 
@@ -31,7 +45,7 @@ Do rozmowy obaj gracze muszą włączyć głos, zamknąć menu i zbliżyć posta
 
 Nie potwierdzamy wydajności 15 renderujących klientów ani odsłuchu mowy na każdej konfiguracji sprzętu. Zacznij od dwóch komputerów. Szczegółowe wyniki gotowej paczki są w opisie wydania.
 
-**Błędy:** `CREATE_BUG_REPORT_PACKAGE.bat`, potem przejrzyj ZIP przed wysłaniem (logi mogą zawierać IP, nazwy katalogów i zapis świata). Wyślij na **gearsoul00@gmail.com** albo do GitHub Issues. Podaj 0.9.9, mapę, host/klient, urządzenia audio i kroki odtworzenia.
+**Błędy:** `CREATE_BUG_REPORT_PACKAGE.bat`, potem przejrzyj ZIP przed wysłaniem (logi mogą zawierać IP, nazwy katalogów i zapis świata). Wyślij na **gearsoul00@gmail.com** albo do GitHub Issues. Podaj 0.9.10, mapę, host/klient, urządzenia audio i kroki odtworzenia.
 
 ---
 

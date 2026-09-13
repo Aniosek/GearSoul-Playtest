@@ -1,8 +1,18 @@
 # GearSoul — checklista testera
 
-## Aktualne v0.9.5
+## Aktualne v0.9.10
 
-Aktualne zadania oraz ograniczenia: [instrukcja v0.9.5](README_PL.md#aktualne-wydanie-v095--co-testować). Priorytet: ścinanie oburącz, anulowanie zamachu, narzędzia i montaż, multiplayer, zaprzęg oraz schronienie. Wyniki automatyzacji i kontroli ZIP-a: [opis wydania](RELEASE_v0.9.5.md).
+Aktualne zadania oraz ograniczenia: [instrukcja 0.9.10](README_PL.md) i [wyniki testów wydania](RELEASE_v0.9.10.md).
+
+- [ ] Host i klient mają 0.9.10 i uruchamiają ten sam region.
+- [ ] Zwierzęta poruszają łapami, a sierść podąża za ciałem.
+- [ ] Wędka ma jedną linkę i spławik przy zarzuceniu; połów nie duplikuje ryb.
+- [ ] Anulowanie, odejście od łowiska i schowanie wędki nie blokują ruchu.
+- [ ] Pełny plecak odmawia łowienia bez zabrania przynęty.
+- [ ] Ryba piecze się przy palenisku, zużywa paliwo i daje posiłek tylko raz.
+- [ ] Pochodnia wymaga świdra do zapalenia, oświetla ściany, gaśnie po schowaniu; drugi gracz widzi ten sam stan.
+- [ ] Nocą w każdym regionie działają księżyc i światła w istniejących domach.
+- [ ] Nadal działają barter, budowa, noszenie materiałów, kopalnia, głos i odzyskanie sterowania po zamknięciu menu.
 
 Poniżej zachowano historyczną checklistę v0.8.3. Jej dawne ograniczenia i liczby nie opisują aktualnej wersji.
 

@@ -1,6 +1,6 @@
-GearSoul v0.9.9 — informacje o zasobach zewnętrznych
+GearSoul v0.9.10 — informacje o zasobach zewnętrznych
 
-Zasoby w punktach 1–4 i 6 używają CC0 1.0 Universal. Ta licencja pozwala
+Zasoby w punktach 1–4, 6 i 7 używają CC0 1.0 Universal. Ta licencja pozwala
 na użycie komercyjne, modyfikację oraz redystrybucję. MetaHuman (punkt 5)
 ma osobną licencję Epic — nie jest CC0. GearSoul nie przypisuje sobie
 autorstwa tych zewnętrznych zasobów.
@@ -49,12 +49,23 @@ CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
    Zastosowanie: powierzchnie autorskich modeli, w tym domu v0.8.3.
    Credit: Powered by Poly Haven.
 
+7. Stone Fire Pit
+   Źródło: https://polyhaven.com/a/stone_fire_pit
+   Licencja: CC0 1.0 Universal — https://polyhaven.com/license
+   Zastosowanie: palenisko do pieczenia ryb.
+   Credit: Powered by Poly Haven.
+
 Autorskie modele domu, narzędzi, etapów ich wykonania, kuźni, miechów i skrzyni
 warsztatowej zostały przygotowane dla GearSoul i nie pochodzą z zewnętrznej
 paczki assetów.
 
-Wydanie 0.9.9 zawiera również regionalny teren, warianty budynków, faunę oraz
+Wydanie 0.9.10 zawiera również regionalny teren, warianty budynków, faunę oraz
 prototypowe segmenty kopalni przygotowane dla projektu. W części procesu
 projektowania i tworzenia oprawy wykorzystano narzędzia generatywne.
 Publiczna paczka jest wykonywalnym buildem gry, nie paczką źródłowych assetów
 ani pakietem do ich osobnej redystrybucji.
+
+Nowe kudłate zwierzę, wędka, pochodnia i ryby mają autorską geometrię Blender.
+W koncepcjach i części procesu tworzenia wykorzystano narzędzia generatywne.
+Zdjęcie Leszka umieszczono w domu na prośbę właściciela projektu; nie jest
+udostępniane jako samodzielny asset ani objęte deklaracją CC0 tej paczki.

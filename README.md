@@ -8,11 +8,11 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.9.9 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.9/GearSoul_v0.9.9_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.9.10 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.10/GearSoul_v0.9.10_PreAlpha_Multiplayer_Windows.zip)
 
-Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.9) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
+Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
 
-ZIP: **1,82 GB**, 54 pliki, kontrolnie rozpakowany i porównany plik po pliku. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.9.md).
+ZIP: **1,83 GB**, 50 plików, kontrolnie rozpakowany i porównany plik po pliku (SHA-256). Host i klienci powinni pobrać tę samą wersję i rozpakować ją do nowego folderu. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.10.md).
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -20,7 +20,17 @@ ZIP: **1,82 GB**, 54 pliki, kontrolnie rozpakowany i porównany plik po pliku. [
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Aktualne v0.9.9 — trzy regiony, budowanie i rozmowa
+## Aktualne v0.9.10 — zwierzęta, łowienie i nocne światło
+
+- Nowe kudłate zwierzęta z animowanymi łapami i sierścią podążającą za ciałem; po trzy w każdym regionie.
+- Wędka z długą linką i spławikiem, łowienie na przynętę, surowe i pieczone ryby oraz receptury. **E** przy łowisku rozpoczyna łowienie i służy do wyciągnięcia ryby po braniu.
+- Pochodnia z paliwem i animowanym płomieniem. **L** zapala trzymaną pochodnię, jeśli masz sprawny świder ogniowy. Światło pada na otoczenie i rzuca cienie.
+- Księżyc, nocne światło i ciepłe oświetlenie istniejących domów. Obraz Leszka w jednym z domów w Alderen.
+- Poprawione sztywne łapy zwierząt, przywiązanie sierści do animacji, podwójny spławik, orientacja płomienia i zdjęcia. Anulowanie łowienia oddaje stanowisko i nie blokuje postaci; pełny plecak nie zabiera przynęty przy odmowie.
+
+Szczegółowe sterowanie, wymagane przedmioty i checklistę znajdziesz w [README_PL.md](README_PL.md). Nie jest to deklaracja ukończenia gry: animacja rzutu, dalsza optymalizacja sierści i automatyczne światła w nowych domach gracza pozostają do rozwinięcia. Wydajność 15 renderujących klientów nie została potwierdzona. Do tego wydania nie dodajemy nowych screenów.
+
+## Poprzednie v0.9.9 — trzy regiony, budowanie i rozmowa
 
 - Trzy mapy regionalne z terenem, osadami i fauną. W każdym regionie 20 domów w 5 wariantach oraz punkty startowego wydobycia. To oddzielne mapy; transfer pomiędzy niezależnymi serwerami nie jest jeszcze gotowy.
 - **F10: wybór mikrofonu i słuchawek**, miernik sygnału, odsłuch lokalny do 15 s, test wyjścia i dźwięk w nieaktywnym oknie. Rozmowa jest dobrowolna, na 25 m, przy przytrzymaniu V. Odsłuch mikrofonu nie nagrywa ani nie wysyła głosu innym.
@@ -28,7 +38,7 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 - Kopalnia zaczyna się zamkniętą skałą: wykucie odcinka → dostawa 3 kłód → obróbka siekierą → mocowanie młotkiem. Bez ukończonej podpory nie drążysz dalej. Na razie 6 odcinków / 12 m; nie ma swobodnych rozgałęzień ani prawdziwych zawałów. Oświetlenie kopalni i regionów nadal wymaga dopracowania.
 - Stara plansza jest tylko dodatkiem `TEST_Mechanik_Stara_Plansza.bat`, nie mapą domyślną. Księga przywołań pozostaje pomocą testową; udźwig nadal obowiązuje.
 
-**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.9](README_PL.md). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów, rozmowy na wszystkich fizycznych mikrofonach ani połączeń WAN w tej wersji.
+**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.10](README_PL.md). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów, rozmowy na wszystkich fizycznych mikrofonach ani połączeń WAN w tej wersji. Poniższe screeny są archiwalne, z 0.9.9.
 
 ![Ustawienia rozmowy w regionie Alderen — zrzut z gotowej paczki](screenshots/v0.9.9/01_dzwiek_Alderen.png)
 
@@ -47,7 +57,7 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 - Księga testowa przywołuje potrzebne przedmioty na oznaczonym polu; udźwig nadal obowiązuje. Sprawdź osadę, schronienie w budynkach, wóz, zaprzęg i barter.
 - To przyrosty projektu do etapu 95, **nie deklaracja 95% ukończenia gry**. Nadal powstają kolejne animacje, oprawa oraz mechaniki.
 
-Poniższy screen i animacja pochodzą z historycznego 0.9.5. Aktualna instrukcja dotyczy 0.9.9.
+Poniższy screen i animacja pochodzą z historycznego 0.9.5. Aktualna instrukcja dotyczy 0.9.10.
 
 **Błędy:** [GitHub Issues](https://github.com/Aniosek/GearSoul-Playtest/issues) lub **gearsoul00@gmail.com**. Podaj wersję, host/klient, kroki i screen. Dołączona pomoc `CREATE_BUG_REPORT_PACKAGE.bat` zbiera logi — przejrzyj je przed udostępnieniem.
 
