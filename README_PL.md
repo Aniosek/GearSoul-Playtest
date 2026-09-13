@@ -1,10 +1,12 @@
-# GearSoul v0.9.10 — Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.10-nightfix — Pre-Alpha Multiplayer Playtest
 
 To wydanie testowe, **nie gotowa gra 1.0.0**. Numer nie oznacza procentu ukończenia. Poniżej są instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
 
-## Uruchomienie 0.9.10
+## Uruchomienie 0.9.10-nightfix
 
-Pobierz archiwum Windows z [wydania 0.9.10](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci muszą używać tej samej wersji; nie mieszaj plików 0.9.9 i 0.9.10.
+Pobierz archiwum Windows z [wydania 0.9.10-nightfix](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10-nightfix) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci powinni używać tej samej paczki nightfix; nie nakładaj jej na starszy folder. Numer bazowy w aplikacji pozostaje 0.9.10; dokładne wydanie opisuje plik `POPRAWKA_NOCY.txt`.
+
+Poprawka rozjaśnia noc, zachowując cienie i użyteczność pochodni. Dzień i mechaniki rozgrywki nie zostały zmienione. Porównaj drogę bez pochodni i z nią oraz wejście do oświetlonego domu. [Zakres testów i ograniczenia](RELEASE_v0.9.10-nightfix.md).
 
 - `GearlSoul1.exe` lub `START_GearSoul_Solo.bat` — region **Alderen**.
 - `START_GearSoul_Regiony.bat` — Alderen, Sairen albo Norvak; wybierz solo lub hosta.

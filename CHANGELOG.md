@@ -1,5 +1,12 @@
 # GearSoul — changelog
 
+## v0.9.10-nightfix — 2026-09-13
+
+- Czytelniejsza noc: jaśniejszy księżyc i otoczenie oraz łagodniejsza adaptacja wzroku.
+- Zachowane światło dnia, cienie i działanie pochodni; bez zmiany rozgrywki i zegara regionów.
+- 128/128 testów; kontrola nocnego obrazu w dwóch regionach oraz gotowym EXE.
+- Samodzielna paczka Windows, bez nowych screenów. [Opis i checklista](RELEASE_v0.9.10-nightfix.md).
+
 ## v0.9.10 — 2026-09-13
 
 - Kudłate zwierzęta z animowanymi łapami i sierścią, po trzy w każdym regionie.

@@ -8,11 +8,11 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.9.10 Pre-Alpha Multiplayer (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.10/GearSoul_v0.9.10_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.9.10-nightfix — jaśniejsza noc (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.10-nightfix/GearSoul_0.9.10_NightFix_Windows.zip)
 
-Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
+Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10-nightfix) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
 
-ZIP: **1,83 GB**, 50 plików, kontrolnie rozpakowany i porównany plik po pliku (SHA-256). Host i klienci powinni pobrać tę samą wersję i rozpakować ją do nowego folderu. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.10.md).
+ZIP: **1,83 GB**, 51 plików, kontrolnie rozpakowany i porównany plik po pliku (SHA-256). Host i klienci powinni pobrać tę samą paczkę **v0.9.10-nightfix** i rozpakować ją do nowego folderu. Numer bazowy w aplikacji pozostaje 0.9.10. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.10-nightfix.md).
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -20,7 +20,15 @@ ZIP: **1,83 GB**, 50 plików, kontrolnie rozpakowany i porównany plik po pliku 
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Aktualne v0.9.10 — zwierzęta, łowienie i nocne światło
+## Aktualne v0.9.10-nightfix — czytelniejsza noc
+
+- Jaśniejsze światło księżyca i otoczenia: nocą lepiej widać drogę, teren i zarysy drzew oraz budynków.
+- Łagodniejsze przyzwyczajanie wzroku do ciemności, bez zwiększania jasności dnia.
+- Pochodnie nadal pomagają; zachowane ciepłe światło wnętrz i cienie.
+- **128/128 testów** zaliczonych. Obraz sprawdzony w Alderen o 22:00 i Norvak o północy, a także w gotowym EXE. Nie jest to nowy test wydajności 15 graczy ani WAN.
+- Nie dodano nowych screenów. [Co sprawdzić i jak zgłosić błąd](RELEASE_v0.9.10-nightfix.md).
+
+## Zawartość bazowego v0.9.10 — zwierzęta, łowienie i nocne światło
 
 - Nowe kudłate zwierzęta z animowanymi łapami i sierścią podążającą za ciałem; po trzy w każdym regionie.
 - Wędka z długą linką i spławikiem, łowienie na przynętę, surowe i pieczone ryby oraz receptury. **E** przy łowisku rozpoczyna łowienie i służy do wyciągnięcia ryby po braniu.
@@ -226,7 +234,7 @@ Aktualna suma paczki jest publikowana w pliku [`SHA256SUMS.txt`](SHA256SUMS.txt)
 
 ## Status projektu
 
-- **Wersja:** v0.8.3 Pre-Alpha Multiplayer Playtest — Etapy 0–72 oraz etapowy dom średniowieczny
+- **Wersja:** v0.9.10-nightfix Pre-Alpha Multiplayer Playtest — poprawka czytelności nocy
 - **Platforma:** Windows 64-bit
 - **Silnik:** Unreal Engine 5.8
 - **Stan:** aktywny rozwój

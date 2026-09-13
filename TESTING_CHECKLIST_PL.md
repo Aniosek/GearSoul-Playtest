@@ -1,10 +1,13 @@
 # GearSoul — checklista testera
 
-## Aktualne v0.9.10
+## Aktualne v0.9.10-nightfix
 
-Aktualne zadania oraz ograniczenia: [instrukcja 0.9.10](README_PL.md) i [wyniki testów wydania](RELEASE_v0.9.10.md).
+Aktualne zadania oraz ograniczenia: [instrukcja](README_PL.md) i [wyniki testów poprawki](RELEASE_v0.9.10-nightfix.md).
 
-- [ ] Host i klient mają 0.9.10 i uruchamiają ten sam region.
+- [ ] Host i klient mają paczkę 0.9.10-nightfix i uruchamiają ten sam region.
+- [ ] Nocą bez pochodni widać drogę i zarysy terenu; pochodnia nadal poprawia widoczność blisko gracza.
+- [ ] Wejście do oświetlonego domu nie prześwietla całego obrazu, a wyjście nie pozostawia trwałej czerni.
+- [ ] Świt i zmierzch przechodzą płynnie; dzień nie stał się jaśniejszy.
 - [ ] Zwierzęta poruszają łapami, a sierść podąża za ciałem.
 - [ ] Wędka ma jedną linkę i spławik przy zarzuceniu; połów nie duplikuje ryb.
 - [ ] Anulowanie, odejście od łowiska i schowanie wędki nie blokują ruchu.
