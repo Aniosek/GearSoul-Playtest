@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-19",
+  "status": "visual-concepts-not-implemented",
+  "currentGameVersion": "0.9.20 Pre-Alpha",
+  "stage100Complete": false,
+  "caption": "Koncepcja UI — nie screenshot aktualnej wersji gry",
+  "provenance": "Image-generated concepts with visual corrections and review.",
+  "galleryUrl": "https://github.com/Aniosek/GearSoul-Playtest/tree/main/ui-proposals/2026-09",
+  "voteUrl": "https://github.com/Aniosek/GearSoul-Playtest/issues/1",
+  "voteMethod": "Comment A, B, C or D in the linked GitHub issue; results are not automatically counted.",
+  "variants": [
+    {
+      "id": "A",
+      "name": "Stare drewno",
+      "file": "A_stare_drewno_v2.png",
+      "description": "Stary dąb, jasne napisy i zgaszona zieleń.",
+      "imageUrl": "https://raw.githubusercontent.com/Aniosek/GearSoul-Playtest/main/ui-proposals/2026-09/A_stare_drewno_v2.png",
+      "alt": "GearSoul — koncepcja UI A: Stare drewno",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "B",
+      "name": "Księga podróżnika",
+      "file": "B_ksiega_podroznika_v2.png",
+      "description": "Jasny papier, ciemny tusz i proste zakładki.",
+      "imageUrl": "https://raw.githubusercontent.com/Aniosek/GearSoul-Playtest/main/ui-proposals/2026-09/B_ksiega_podroznika_v2.png",
+      "alt": "GearSoul — koncepcja UI B: Księga podróżnika",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "C",
+      "name": "Ciemna kuźnia",
+      "file": "C_ciemna_kuznia_v2.png",
+      "description": "Czernione żelazo i oszczędne miedziane akcenty.",
+      "imageUrl": "https://raw.githubusercontent.com/Aniosek/GearSoul-Playtest/main/ui-proposals/2026-09/C_ciemna_kuznia_v2.png",
+      "alt": "GearSoul — koncepcja UI C: Ciemna kuźnia",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "D",
+      "name": "Skórzana torba",
+      "file": "D_skorzana_torba_v2.png",
+      "description": "Zużyta skóra, płótno i skromne szwy.",
+      "imageUrl": "https://raw.githubusercontent.com/Aniosek/GearSoul-Playtest/main/ui-proposals/2026-09/D_skorzana_torba_v2.png",
+      "alt": "GearSoul — koncepcja UI D: Skórzana torba",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

@@ -8,6 +8,8 @@
 
 ## Pobierz aktualną wersję
 
+**Wybieramy nowy wygląd UI:** [obejrzyj cztery propozycje A/B/C/D](ui-proposals/2026-09/README.md) i [zagłosuj w komentarzu](https://github.com/Aniosek/GearSoul-Playtest/issues/1). To makiety do wyboru, nie zmiana obecnej paczki 0.9.20.
+
 ### [Pobierz GearSoul v0.9.20 — las, górskie kopalnie i osada (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.20/GearSoul_v0.9.20_PreAlpha_Multiplayer_Windows.zip)
 
 Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.20) · [Sumy SHA-256](SHA256SUMS.txt). **Wersja rozwojowa pre-alpha. Etap 100 NIE jest ukończony. To NIE jest beta ani 1.0.0.**
