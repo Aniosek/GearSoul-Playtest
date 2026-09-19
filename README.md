@@ -8,11 +8,13 @@
 
 ## Pobierz aktualną wersję
 
-### [Pobierz GearSoul v0.9.10-nightfix — jaśniejsza noc (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.10-nightfix/GearSoul_0.9.10_NightFix_Windows.zip)
+### [Pobierz GearSoul v0.9.20 — las, górskie kopalnie i osada (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.20/GearSoul_v0.9.20_PreAlpha_Multiplayer_Windows.zip)
 
-Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10-nightfix) · [Sumy SHA-256](SHA256SUMS.txt). **To wciąż pre-alpha, nie gotowe 1.0.0.**
+Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.20) · [Sumy SHA-256](SHA256SUMS.txt). **Wersja rozwojowa pre-alpha. Etap 100 NIE jest ukończony. To NIE jest beta ani 1.0.0.**
 
-ZIP: **1,83 GB**, 51 plików, kontrolnie rozpakowany i porównany plik po pliku (SHA-256). Host i klienci powinni pobrać tę samą paczkę **v0.9.10-nightfix** i rozpakować ją do nowego folderu. Numer bazowy w aplikacji pozostaje 0.9.10. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.10-nightfix.md).
+Host i klienci powinni pobrać tę samą paczkę **v0.9.20** i rozpakować ją do nowego folderu. Nie nakładaj jej na starszą instalację. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.20.md). Beta dopiero po domknięciu animacji, pozostałych mechanik i potwierdzeniu grywalności — numer wersji nie oznacza procentu ukończenia.
+
+ZIP ma **1,84 GB i 50 plików**; został rozpakowany i porównany plik po pliku przez SHA-256. Wydanie jest oznaczone jako **pre-release**, więc użyj bezpośredniego linku powyżej — skrót GitHuba „latest” może wskazywać starsze wydanie.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
@@ -20,7 +22,15 @@ ZIP: **1,83 GB**, 51 plików, kontrolnie rozpakowany i porównany plik po pliku 
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
 
-## Aktualne v0.9.10-nightfix — czytelniejsza noc
+## Aktualne v0.9.20 — świat do wycinki i budowania
+
+- 282 986 wcześniej dekoracyjnych drzew na trzech mapach podłączono do pracy siekierą. Po ścince i zabraniu kłód można wykorzystać miejsce pod budowę, zgodnie z prawami i ograniczeniami terenu.
+- Po dwie kopalnie na region osadzono w skalnych masywach. Drzewa z gołych skał przeniesiono na grunt przy podnóżach, zachowując ich tożsamość zapisu. Kopalnie nadal mają określone galerie i wymagają fizycznych podpór — nie dowolne drążenie całej góry.
+- Budowana kuźnia, dymarka i skrzynia, wiadro wielokrotnego użytku, wytwarzane posłanie, odpoczynek na siedząco i przestawianie gotowych mebli gracza. Materiały trzeba przynieść i wykonać pracę.
+- Zapis cyklu lasu, praktyka Barda/Myślistwa i zachowana czytelniejsza noc. Osobne pule: do 50 Wiedzy i do 40 Rozwoju.
+- Pełne animacje, dalsze wyposażenie magazynów/produkcji, rozwój osad i docelowa infrastruktura pozostają do dokończenia. [Aktualna roadmapa](ROADMAP.md) · [Co testować](TESTING_CHECKLIST_PL.md).
+
+## Zachowana poprawka v0.9.10-nightfix — czytelniejsza noc
 
 - Jaśniejsze światło księżyca i otoczenia: nocą lepiej widać drogę, teren i zarysy drzew oraz budynków.
 - Łagodniejsze przyzwyczajanie wzroku do ciemności, bez zwiększania jasności dnia.
@@ -46,7 +56,7 @@ Szczegółowe sterowanie, wymagane przedmioty i checklistę znajdziesz w [README
 - Kopalnia zaczyna się zamkniętą skałą: wykucie odcinka → dostawa 3 kłód → obróbka siekierą → mocowanie młotkiem. Bez ukończonej podpory nie drążysz dalej. Na razie 6 odcinków / 12 m; nie ma swobodnych rozgałęzień ani prawdziwych zawałów. Oświetlenie kopalni i regionów nadal wymaga dopracowania.
 - Stara plansza jest tylko dodatkiem `TEST_Mechanik_Stara_Plansza.bat`, nie mapą domyślną. Księga przywołań pozostaje pomocą testową; udźwig nadal obowiązuje.
 
-**Co sprawdzić:** [aktualna instrukcja i checklista v0.9.10](README_PL.md). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów, rozmowy na wszystkich fizycznych mikrofonach ani połączeń WAN w tej wersji. Poniższe screeny są archiwalne, z 0.9.9.
+**Co sprawdzić:** [aktualna instrukcja v0.9.20](README_PL.md). Launchery uruchamiają świeży scenariusz bez trwałego zapisu. Nie kasuj swoich starszych zapisów. Nie potwierdzono wydajności 15 renderujących klientów, rozmowy na wszystkich fizycznych mikrofonach ani połączeń WAN w tej wersji. Poniższe screeny są archiwalne, z 0.9.9.
 
 ![Ustawienia rozmowy w regionie Alderen — zrzut z gotowej paczki](screenshots/v0.9.9/01_dzwiek_Alderen.png)
 
@@ -65,7 +75,7 @@ Szczegółowe sterowanie, wymagane przedmioty i checklistę znajdziesz w [README
 - Księga testowa przywołuje potrzebne przedmioty na oznaczonym polu; udźwig nadal obowiązuje. Sprawdź osadę, schronienie w budynkach, wóz, zaprzęg i barter.
 - To przyrosty projektu do etapu 95, **nie deklaracja 95% ukończenia gry**. Nadal powstają kolejne animacje, oprawa oraz mechaniki.
 
-Poniższy screen i animacja pochodzą z historycznego 0.9.5. Aktualna instrukcja dotyczy 0.9.10.
+Poniższy screen i animacja pochodzą z historycznego 0.9.5. Aktualna instrukcja dotyczy 0.9.20.
 
 **Błędy:** [GitHub Issues](https://github.com/Aniosek/GearSoul-Playtest/issues) lub **gearsoul00@gmail.com**. Podaj wersję, host/klient, kroki i screen. Dołączona pomoc `CREATE_BUG_REPORT_PACKAGE.bat` zbiera logi — przejrzyj je przed udostępnieniem.
 

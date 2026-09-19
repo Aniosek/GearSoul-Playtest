@@ -1,5 +1,12 @@
 # GearSoul — publiczny dziennik rozwoju
 
+## 2026-09-19 — 0.9.20
+
+- Rozszerzono ścinkę na obecny las wszystkich trzech regionów, osadzono kopalnie w skałach i poprawiono rozmieszczenie drzew na górach.
+- Wydanie łączy wcześniejsze lokalne prace nad budowalną produkcją, wodą, posłaniem, odpoczynkiem, meblami i skrzynią.
+- Etap 100 pozostaje otwarty; beta wymaga animacji, domknięcia uzgodnionego zakresu i potwierdzenia grywalności.
+- [Szczegóły wydania](RELEASE_v0.9.20.md) i [aktualna roadmapa](ROADMAP.md).
+
 ## 2026-08-30
 
 - Opublikowano v0.4.0 z mapą naturalną, responsywnym ekwipunkiem i screenami.

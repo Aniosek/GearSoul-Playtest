@@ -1,5 +1,13 @@
 # GearSoul — changelog
 
+## v0.9.20 — 2026-09-19
+
+- Wycinany las trzech regionów, sześć kopalń w skałach i korekta 407 drzew na gołych górach.
+- Budowane kuźnia, dymarka i skrzynia; wiadro, posłanie, siedzący odpoczynek i przesuwanie mebli.
+- Zapis cyklu lasu i praktyka profesji; zachowane wcześniejsze poprawki światła.
+- **Etap 100 nieukończony. Pre-alpha, nie beta.** Animacje i pozostały zakres muszą zostać domknięte przed betą.
+- [Zakres, testy i ograniczenia](RELEASE_v0.9.20.md).
+
 ## v0.9.10-nightfix — 2026-09-13
 
 - Czytelniejsza noc: jaśniejszy księżyc i otoczenie oraz łagodniejsza adaptacja wzroku.

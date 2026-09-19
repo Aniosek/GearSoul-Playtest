@@ -1,12 +1,10 @@
-# GearSoul v0.9.10-nightfix — Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.20 — rozwojowy Pre-Alpha Multiplayer Playtest
 
-To wydanie testowe, **nie gotowa gra 1.0.0**. Numer nie oznacza procentu ukończenia. Poniżej są instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
+To wydanie rozwojowe, **nie beta i nie gotowa gra 1.0.0**. Etap 100 pozostaje nieukończony: najpierw animacje, pozostałe mechaniki i potwierdzona grywalność, potem beta testy. Numer wersji nie oznacza procentu ukończenia. Poniżej instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
 
-## Uruchomienie 0.9.10-nightfix
+## Uruchomienie 0.9.20
 
-Pobierz archiwum Windows z [wydania 0.9.10-nightfix](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.10-nightfix) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci powinni używać tej samej paczki nightfix; nie nakładaj jej na starszy folder. Numer bazowy w aplikacji pozostaje 0.9.10; dokładne wydanie opisuje plik `POPRAWKA_NOCY.txt`.
-
-Poprawka rozjaśnia noc, zachowując cienie i użyteczność pochodni. Dzień i mechaniki rozgrywki nie zostały zmienione. Porównaj drogę bez pochodni i z nią oraz wejście do oświetlonego domu. [Zakres testów i ograniczenia](RELEASE_v0.9.10-nightfix.md).
+Pobierz archiwum Windows z [wydania 0.9.20](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.20) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci muszą używać tej samej wersji 0.9.20; nie mieszaj jej z plikami starszych wydań.
 
 - `GearlSoul1.exe` lub `START_GearSoul_Solo.bat` — region **Alderen**.
 - `START_GearSoul_Regiony.bat` — Alderen, Sairen albo Norvak; wybierz solo lub hosta.
@@ -16,7 +14,20 @@ Poprawka rozjaśnia noc, zachowując cienie i użyteczność pochodni. Dzień i 
 
 Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapisów. Regiony to oddzielne mapy, nie działający transfer pomiędzy niezależnymi serwerami.
 
-## Nowości 0.9.10 — zwierzęta, łowienie i światło
+## Nowości 0.9.20 — las, kopalnie i praca w osadzie
+
+- Obecny las w Alderen, Sairen i Norvak jest do wycinki: 282 986 wcześniej dekoracyjnych drzew korzysta teraz z pracy siekierą, energii, trwałości i praktyki. Podejdź do pnia, stań przodem, zatrzymaj się i użyj **E**. Po wycince i wyniesieniu kłód zwalnia się miejsce; zwykłe ograniczenia budowania i prawa do działki nadal obowiązują.
+- Po dwie istniejące kopalnie na region są otoczone skalnym masywem z kolizją. Drzewa przeniesiono z odsłoniętych skał na grunt przy podnóżach. To nadal określone galerie 6 × 2 m, nie swobodne kopanie całej góry.
+- Budowane stanowisko kowalskie, dymarka i skrzynia magazynowa wymagają dostarczenia materiałów oraz pracy. Plany wybieraj **Y**; postępuj zgodnie z komunikatem placu budowy. Nie ma automatycznej skrzyni dostarczającej materiały do budowy.
+- Drewniane wiadro ma 4 l pojemności i masę zależną od wody. Napełniaj je ze źródła, studni lub deszczówki; zużycie wody pozostawia wiadro.
+- Posłanie trzeba wykonać i zamontować w ukończonej ramie łóżka. **E** pozwala odpocząć na siedząco na gotowym stołku lub łóżku z posłaniem; ruch, spacja lub E kończą odpoczynek. To jeszcze nie pełna animacja snu.
+- Gotowe meble gracza można przestawiać przez **H**, obracać **[ / ]**, anulować **Y**. Skrzynia musi być pusta, żeby ją przesunąć. Wyposażenie już stojące w autorskich domach nie jest automatycznie przenośne.
+- Skrzynia: 16 miejsc / 120 kg / 160 l; narzędzia i drobne materiały, bez żywności, kłód i dużych kamieni. **E** otwiera panel. Serwer kontroluje przenoszenie i własność.
+- Praktyka Barda i Myślistwa, zapis sadzonek i częściowej wycinki oraz dotychczasowe poprawki nocnego światła. Wiedza (do 50) i Rozwój (do 40) pozostają oddzielne.
+
+**Jeszcze niegotowe:** pełne animacje snu, podejścia i noszenia, dalsze wyposażenie produkcji i magazynu żywności, domknięcie gildii/awansu osad oraz uzgodnionych zasad offline. Transfer między niezależnymi serwerami i wydajność większych grup wymagają osobnych prac. Oprawa map i zwierząt nadal jest rozwijana. Brak animacji upadku całego drzewa i samoczynnego odrostu wyciętego lasu; działa osobne sadzenie.
+
+## Zachowana zawartość — zwierzęta, łowienie i światło
 
 - Po trzy nowe kudłate zwierzęta i jednym łowisku z paleniskiem w każdym regionie. To fikcyjne zwierzę z psim pyskiem i wydłużonym ciałem, nie pies o imieniu „Kuna”.
 - Wędka ma dłuższą linkę prowadzącą od końca kija do spławika na wodzie. Przy łowisku weź wędkę do dłoni, miej ciasto jako przynętę i naciśnij **E**. Po komunikacie o braniu naciśnij **E** ponownie. Wczesne E anuluje, tak samo odejście lub schowanie wędki.
@@ -39,15 +50,17 @@ Do rozmowy obaj gracze muszą włączyć głos, zamknąć menu i zbliżyć posta
 ## Co sprawdzić w tej wersji
 
 1. Głos host ↔ klient, poprawne urządzenia, wyciszenie gracza, zasięg, odsłuch lokalny i dźwięk w tle.
-2. Trzy regiony: grunt, wejścia i schronienie w budynkach, ruch zwierząt, interaktywne zasoby przy osadzie. Dalszy las jest w dużej części dekoracyjny.
+2. Trzy regiony: grunt, wejścia i schronienie w budynkach, ruch zwierząt, ścinanie także dalszego lasu. Sprawdź miejsce po wycince i widoczność usuniętego pnia u gracza dołączającego później. Obejdź skalne masywy — drzewa nie powinny wyrastać z nagiej skały ani wisieć nad gruntem.
 3. Kopalnia zaczyna się od zamkniętej skały. Po wykuciu odcinka dostarcz pojedynczo 3 kłody, obrób połączenia siekierą i zamocuj młotkiem. Dopiero ukończona podpora otwiera dalsze drążenie. Prototyp ma 6 odcinków / 12 m; brak swobodnych rozgałęzień, prawdziwych zawałów i docelowego oświetlenia pod ziemią.
 4. Budowanie od podstaw: dostawy pojedynczych materiałów, noszenie ciężkich kłód, kolejne etapy pracy, meble oraz studnia. Nie ma automatycznej skrzyni dostaw. Nie wszystkie meble mają jeszcze dodatkowe funkcje użytkowe.
 5. Profil **P**: osobne profesje i praktyka, pula do 50 Punktów Wiedzy i osobno do 40 Punktów Rozwoju. Limity nie oznaczają przyznania pełnej puli na starcie.
 6. Barter, budowa i wydobycie we dwójkę: brak powielania surowców, spójny stan i odzyskanie sterowania po zamknięciu interakcji.
+7. Zbuduj kuźnię, dymarkę, mebel z posłaniem i skrzynię; sprawdź dostawy, pracę, działanie po ukończeniu, odzyskanie ruchu po odpoczynku oraz przenoszenie pustych mebli.
+8. Napełnij wiadro, przenieś wodę i zużyj ją w produkcji. Pusty pojemnik powinien pozostać, a masa się zmniejszyć.
 
 Nie potwierdzamy wydajności 15 renderujących klientów ani odsłuchu mowy na każdej konfiguracji sprzętu. Zacznij od dwóch komputerów. Szczegółowe wyniki gotowej paczki są w opisie wydania.
 
-**Błędy:** `CREATE_BUG_REPORT_PACKAGE.bat`, potem przejrzyj ZIP przed wysłaniem (logi mogą zawierać IP, nazwy katalogów i zapis świata). Wyślij na **gearsoul00@gmail.com** albo do GitHub Issues. Podaj 0.9.10, mapę, host/klient, urządzenia audio i kroki odtworzenia.
+**Błędy:** `CREATE_BUG_REPORT_PACKAGE.bat`, potem przejrzyj ZIP przed wysłaniem (logi mogą zawierać IP, nazwy katalogów i zapis świata). Wyślij na **gearsoul00@gmail.com** albo do GitHub Issues. Podaj 0.9.20, mapę, host/klient, urządzenia audio i kroki odtworzenia.
 
 ---
 

@@ -1,6 +1,22 @@
 # GearSoul — checklista testera
 
-## Aktualne v0.9.10-nightfix
+## Aktualne v0.9.20 — pre-alpha, etap 100 nieukończony
+
+- [ ] Wszyscy mają 0.9.20, rozpakowane do nowego folderu; region wybiera host.
+- [ ] Ścinanie działa także w dalszym lesie na każdej z trzech map; energia, trwałość i praktyka zmieniają się za faktyczną pracę.
+- [ ] Po wycince i wyniesieniu kłód nie zostaje niewidoczny pień blokujący budowę/ruch; późno dołączający klient widzi ten sam stan.
+- [ ] Drzewa wokół dwóch górskich kopalń na region stoją na ziemi, nie na odsłoniętej skale ani w powietrzu. Wejścia do kopalń pozostają drożne.
+- [ ] Wydobycie wymaga podpór: 3 przyniesione kłody na odcinek, obróbka i mocowanie; brak bezpłatnego postępu.
+- [ ] Nowa kuźnia, dymarka i skrzynia powstają z dostarczonych materiałów; gotowe stanowiska działają.
+- [ ] Skrzynia odmawia rzeczy spoza zakresu i nadmiaru pojemności bez utraty przedmiotów; ruszyć można tylko pustą.
+- [ ] Posłanie można wykonać i zamontować; odpoczynek kończy się bez blokady chodzenia.
+- [ ] Przesuwanie gotowych mebli gracza sprawdza miejsce i prawa. Meble nie przechodzą przez ściany i postacie.
+- [ ] Wiadro zachowuje się po zużyciu wody, a ilość płynu wpływa na masę.
+- [ ] Działają także noc, pochodnia, ryby, barter, transport i rozmowa przestrzenna.
+
+To zadania do ręcznego testowania, nie deklaracja bezbłędności. Wyniki automatyczne i ograniczenia: [wydanie 0.9.20](RELEASE_v0.9.20.md). Launchery nie zapisują świata trwale. Zgłoszenia: gearsoul00@gmail.com lub Issues; podaj wersję, region, host/klient i kroki. Przejrzyj paczkę diagnostyczną przed udostępnieniem.
+
+## Zachowana checklista v0.9.10-nightfix
 
 Aktualne zadania oraz ograniczenia: [instrukcja](README_PL.md) i [wyniki testów poprawki](RELEASE_v0.9.10-nightfix.md).
 
