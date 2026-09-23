@@ -29,7 +29,8 @@ Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i p
 - Ekwipunek ma sloty i limity po lewej, a podgląd oraz działania przedmiotu na prawej stronie — bez zasłaniania grzbietu.
 - W księdze postaci profesje, w tym Ciesielstwo i Rolnictwo, oraz zakładka rozwoju nie wchodzą już na prawą kartę.
 - Ekwipunek, profil, rozwój i dźwięk korzystają ze wspólnego pergaminu, cienkiej zużytej oprawy i kroju Cormorant Garamond.
-- 148/148 testów automatycznych oraz test wizualny gotowego, rozpakowanego EXE zakończyły się powodzeniem.
+- Księga przywołań działa po zwykłym uruchomieniu `GearlSoul1.exe`; nie wymaga już ukrytego parametru launchera.
+- 148/148 testów automatycznych, test wizualny oraz test przywołania przedmiotu w gotowym, rozpakowanym EXE zakończyły się powodzeniem.
 
 ![GearSoul v0.9.21 — ekwipunek](screenshots/v0.9.21/GearSoul_v0.9.21_Ekwipunek.png)
 

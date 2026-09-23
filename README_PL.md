@@ -14,6 +14,8 @@ Pobierz archiwum Windows z [wydania 0.9.21](https://github.com/Aniosek/GearSoul-
 
 Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapisów. Regiony to oddzielne mapy, nie działający transfer pomiędzy niezależnymi serwerami.
 
+Księga przywołań na placu testowym jest dostępna również po zwykłym uruchomieniu `GearlSoul1.exe`; podejdź do niej i użyj **E**.
+
 ## Nowości 0.9.21 — księga podróżnika
 
 - Ekwipunek, profil, rozwój i ustawienia dźwięku korzystają ze wspólnej oprawy prawdziwej otwartej księgi.
@@ -21,6 +23,7 @@ Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapis�
 - W księdze postaci Ciesielstwo, Rolnictwo i pozostałe profesje nie nachodzą już na prawą kartę; „Rozwój · cechy” mieści się w całości po lewej stronie.
 - Zastosowano Cormorant Garamond na licencji SIL OFL 1.1. Napisy, wartości, sloty i przyciski nadal są działającymi elementami gry, a nie częścią obrazka.
 - Gotowa paczka przeszła 148/148 testów oraz osobny test ekwipunku, profilu i rozwoju po rozpakowaniu ZIP-a.
+- Naprawiona księga przywołań została dodatkowo sprawdzona w rozpakowanym EXE bez ukrytej flagi testowej: panel otwiera się i przywołuje wybrany przedmiot.
 
 ![Ekwipunek w księdze — gotowa paczka v0.9.21](screenshots/v0.9.21/GearSoul_v0.9.21_Ekwipunek.png)
 

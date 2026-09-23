@@ -10,6 +10,7 @@ Publiczny **Pre-Alpha Multiplayer Playtest** dla Windows. To nie beta ani ukońc
 - Siatka profesji kończy się przed grzbietem; Ciesielstwo i Rolnictwo nie nachodzą już na prawą stronę.
 - „Rozwój · cechy” oraz wszystkie cztery cechy mieszczą się na lewej stronie, a prawa służy szczegółom wyboru.
 - Dołączono krój Cormorant Garamond i pełny tekst licencji SIL OFL 1.1.
+- Naprawiono księgę przywołań: działa także po zwykłym uruchomieniu `GearlSoul1.exe`, bez ukrytego parametru launchera.
 
 ## Kontrola wydania
 
@@ -18,13 +19,14 @@ Publiczny **Pre-Alpha Multiplayer Playtest** dla Windows. To nie beta ani ukońc
 - gotowanie czterech map: zaliczone, 0 błędów;
 - 148/148 testów `GearlSoul`: zaliczone, 0 błędów, 0 ostrzeżeń testów;
 - ZIP rozpakowany i porównany plik po pliku: 59/59 zgodnych;
-- test księgi w rozpakowanym EXE: profil, rozwój, ekwipunek i odzyskanie sterowania — zaliczone.
+- test księgi UI w rozpakowanym EXE: profil, rozwój, ekwipunek i odzyskanie sterowania — zaliczone;
+- test księgi przywołań w rozpakowanym EXE uruchomionym bez flagi testowej: 60 pozycji, otwarcie panelu i przywołanie przedmiotu — zaliczone.
 
 ## Paczka
 
 - plik: `GearSoul_v0.9.21_PreAlpha_Playtest_Windows.zip`;
-- rozmiar: 1 851 607 026 bajtów;
-- SHA-256: `de933c37b71ecf7fb248e6c0910e7607dc2afd0512e4ca0709ab5b74845e369f`.
+- rozmiar: 1 851 611 463 bajty;
+- SHA-256: `f714c2638d1ce86b5101bda75827434c9b93a354d9b193516055a976a793ebd8`.
 
 Rozpakuj ZIP do nowego folderu. Host i klienci muszą używać tej samej wersji. Kod źródłowy i edytowalne źródła assetów nie są częścią paczki.
 
