@@ -8,21 +8,32 @@
 
 ## Pobierz aktualną wersję
 
-**Wybieramy nowy wygląd UI:** [obejrzyj cztery propozycje A/B/C/D](ui-proposals/2026-09/README.md) i [zagłosuj w komentarzu](https://github.com/Aniosek/GearSoul-Playtest/issues/1). To makiety do wyboru, nie zmiana obecnej paczki 0.9.20.
+**Wybrany wygląd UI został wdrożony:** wariant otwartej księgi działa w ekwipunku, profilu, rozwoju i ustawieniach dźwięku. [Zobacz wcześniejsze propozycje A/B/C/D](ui-proposals/2026-09/README.md).
 
-### [Pobierz GearSoul v0.9.20 — las, górskie kopalnie i osada (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.20/GearSoul_v0.9.20_PreAlpha_Multiplayer_Windows.zip)
+### [Pobierz GearSoul v0.9.21 — księga podróżnika (Windows)](https://github.com/Aniosek/GearSoul-Playtest/releases/download/v0.9.21/GearSoul_v0.9.21_PreAlpha_Playtest_Windows.zip)
 
-Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.20) · [Sumy SHA-256](SHA256SUMS.txt). **Wersja rozwojowa pre-alpha. Etap 100 NIE jest ukończony. To NIE jest beta ani 1.0.0.**
+Paczka wykonywalna jest w powyższym ZIP-ie, nie w „Code → Download ZIP” ani w automatycznych archiwach „Source code”. [Opis wydania i pliki](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.21) · [Sumy SHA-256](SHA256SUMS.txt). **Wersja rozwojowa pre-alpha. Etap 100 NIE jest ukończony. To NIE jest beta ani 1.0.0.**
 
-Host i klienci powinni pobrać tę samą paczkę **v0.9.20** i rozpakować ją do nowego folderu. Nie nakładaj jej na starszą instalację. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.20.md). Beta dopiero po domknięciu animacji, pozostałych mechanik i potwierdzeniu grywalności — numer wersji nie oznacza procentu ukończenia.
+Host i klienci powinni pobrać tę samą paczkę **v0.9.21** i rozpakować ją do nowego folderu. Nie nakładaj jej na starszą instalację. [Wyniki testów oraz ograniczenia](RELEASE_v0.9.21.md). Beta dopiero po domknięciu animacji, pozostałych mechanik i potwierdzeniu grywalności — numer wersji nie oznacza procentu ukończenia.
 
-ZIP ma **1,84 GB i 50 plików**; został rozpakowany i porównany plik po pliku przez SHA-256. Wydanie jest oznaczone jako **pre-release**, więc użyj bezpośredniego linku powyżej — skrót GitHuba „latest” może wskazywać starsze wydanie.
+ZIP ma **1,85 GB i 59 plików**; został rozpakowany i porównany plik po pliku przez SHA-256. Wydanie jest oznaczone jako **pre-release**, więc użyj bezpośredniego linku powyżej — skrót GitHuba „latest” może wskazywać starsze wydanie.
 
 1. Pobierz i rozpakuj cały plik ZIP.
 2. Nie uruchamiaj gry bezpośrednio z wnętrza archiwum.
 3. Uruchom `START_GearSoul_Regiony.bat`, aby wybrać **Alderen, Sairen lub Norvak** i tryb solo/host. Zwykłe EXE oraz launcher Solo otwierają Alderen. Pozostali gracze używają `START_GearSoul_Join.bat`.
 
 Przy połączeniu przez Internet host musi dopuścić grę w Zaporze Windows i przekierować **UDP 7777**. Ta wersja używa listen-servera.
+
+## Aktualne v0.9.21 — prawdziwa księga UI
+
+- Ekwipunek ma sloty i limity po lewej, a podgląd oraz działania przedmiotu na prawej stronie — bez zasłaniania grzbietu.
+- W księdze postaci profesje, w tym Ciesielstwo i Rolnictwo, oraz zakładka rozwoju nie wchodzą już na prawą kartę.
+- Ekwipunek, profil, rozwój i dźwięk korzystają ze wspólnego pergaminu, cienkiej zużytej oprawy i kroju Cormorant Garamond.
+- 148/148 testów automatycznych oraz test wizualny gotowego, rozpakowanego EXE zakończyły się powodzeniem.
+
+![GearSoul v0.9.21 — ekwipunek](screenshots/v0.9.21/GearSoul_v0.9.21_Ekwipunek.png)
+
+![GearSoul v0.9.21 — profesje](screenshots/v0.9.21/GearSoul_v0.9.21_Profil.png)
 
 ## Aktualne v0.9.20 — świat do wycinki i budowania
 

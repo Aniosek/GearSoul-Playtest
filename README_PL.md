@@ -1,10 +1,10 @@
-# GearSoul v0.9.20 — rozwojowy Pre-Alpha Multiplayer Playtest
+# GearSoul v0.9.21 — księga podróżnika (Pre-Alpha Multiplayer Playtest)
 
 To wydanie rozwojowe, **nie beta i nie gotowa gra 1.0.0**. Etap 100 pozostaje nieukończony: najpierw animacje, pozostałe mechaniki i potwierdzona grywalność, potem beta testy. Numer wersji nie oznacza procentu ukończenia. Poniżej instrukcje bieżącej paczki; dalsza historia opisuje starsze wydania.
 
-## Uruchomienie 0.9.20
+## Uruchomienie 0.9.21
 
-Pobierz archiwum Windows z [wydania 0.9.20](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.20) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci muszą używać tej samej wersji 0.9.20; nie mieszaj jej z plikami starszych wydań.
+Pobierz archiwum Windows z [wydania 0.9.21](https://github.com/Aniosek/GearSoul-Playtest/releases/tag/v0.9.21) i rozpakuj je w całości do nowego folderu. Nie uruchamiaj EXE wewnątrz ZIP. Unreal Editor nie jest potrzebny. Host i klienci muszą używać tej samej wersji 0.9.21; nie mieszaj jej z plikami starszych wydań.
 
 - `GearlSoul1.exe` lub `START_GearSoul_Solo.bat` — region **Alderen**.
 - `START_GearSoul_Regiony.bat` — Alderen, Sairen albo Norvak; wybierz solo lub hosta.
@@ -13,6 +13,20 @@ Pobierz archiwum Windows z [wydania 0.9.20](https://github.com/Aniosek/GearSoul-
 - Dla Internetu nadal potrzebne jest połączenie z hostem na UDP 7777; automatyczne zaproszenia/NAT traversal nie są gotowe.
 
 Launchery uruchamiają test **bez trwałego zapisu**. Nie kasuj starszych zapisów. Regiony to oddzielne mapy, nie działający transfer pomiędzy niezależnymi serwerami.
+
+## Nowości 0.9.21 — księga podróżnika
+
+- Ekwipunek, profil, rozwój i ustawienia dźwięku korzystają ze wspólnej oprawy prawdziwej otwartej księgi.
+- Sloty i limity plecaka pozostają na lewej stronie, a podgląd oraz działania przedmiotu są odsunięte na prawą stronę. Grzbiet pozostaje wolny od tekstu.
+- W księdze postaci Ciesielstwo, Rolnictwo i pozostałe profesje nie nachodzą już na prawą kartę; „Rozwój · cechy” mieści się w całości po lewej stronie.
+- Zastosowano Cormorant Garamond na licencji SIL OFL 1.1. Napisy, wartości, sloty i przyciski nadal są działającymi elementami gry, a nie częścią obrazka.
+- Gotowa paczka przeszła 148/148 testów oraz osobny test ekwipunku, profilu i rozwoju po rozpakowaniu ZIP-a.
+
+![Ekwipunek w księdze — gotowa paczka v0.9.21](screenshots/v0.9.21/GearSoul_v0.9.21_Ekwipunek.png)
+
+![Profil i profesje bez nachodzenia na grzbiet](screenshots/v0.9.21/GearSoul_v0.9.21_Profil.png)
+
+![Rozwój cech na lewej stronie księgi](screenshots/v0.9.21/GearSoul_v0.9.21_Rozwoj.png)
 
 ## Nowości 0.9.20 — las, kopalnie i praca w osadzie
 

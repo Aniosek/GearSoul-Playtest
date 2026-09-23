@@ -1,4 +1,4 @@
-GearSoul v0.9.10 — informacje o zasobach zewnętrznych
+GearSoul v0.9.21 — informacje o zasobach zewnętrznych
 
 Zasoby w punktach 1–4, 6 i 7 używają CC0 1.0 Universal. Ta licencja pozwala
 na użycie komercyjne, modyfikację oraz redystrybucję. MetaHuman (punkt 5)
@@ -69,3 +69,9 @@ Nowe kudłate zwierzę, wędka, pochodnia i ryby mają autorską geometrię Blen
 W koncepcjach i części procesu tworzenia wykorzystano narzędzia generatywne.
 Zdjęcie Leszka umieszczono w domu na prośbę właściciela projektu; nie jest
 udostępniane jako samodzielny asset ani objęte deklaracją CC0 tej paczki.
+9. Cormorant Garamond
+   Autor: Christian Thalmann i The Cormorant Project Authors
+   Źródło: https://github.com/CatharsisFonts/Cormorant
+   Licencja: SIL Open Font License 1.1
+   Zastosowanie: tekst interfejsu księgi podróżnika.
+   Pełny tekst licencji znajduje się w paczce przy plikach fontu.

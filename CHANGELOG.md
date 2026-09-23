@@ -1,5 +1,13 @@
 # GearSoul — changelog
 
+## v0.9.21 — 2026-09-24
+
+- Wdrożony interfejs otwartej księgi dla ekwipunku, profilu, rozwoju i dźwięku.
+- Prawa strona ekwipunku została odsunięta od grzbietu; Ciesielstwo, Rolnictwo i „Rozwój · cechy” pozostają na lewej stronie księgi.
+- Dołączony krój Cormorant Garamond wraz z licencją SIL OFL 1.1.
+- 148/148 testów automatycznych oraz test wizualny rozpakowanej paczki Windows.
+- [Zakres, testy i ograniczenia](RELEASE_v0.9.21.md).
+
 ## v0.9.20 — 2026-09-19
 
 - Wycinany las trzech regionów, sześć kopalń w skałach i korekta 407 drzew na gołych górach.
